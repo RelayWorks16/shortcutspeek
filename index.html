@@ -289,58 +289,25 @@
     pointer-events: none;
   }
 
-  .overlay-mock {
-    position: relative;
-    background: var(--surface-raised);
+  .hero-demo-video,
+  .hero-demo-poster {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border: 1px solid var(--border);
     border-radius: 20px;
     box-shadow: 0 30px 60px -20px hsl(var(--shadow) / 0.45), 0 4px 14px -6px hsl(var(--shadow) / 0.3);
-    padding: 20px;
-    max-width: 420px;
     margin: 0 auto;
+    background: var(--surface-raised);
   }
+  .hero-demo-poster { display: none; }
 
-  .mock-search {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 14px;
-    border-radius: 10px;
-    background: var(--surface-sunken);
-    color: var(--text-muted);
-    font-size: 0.88rem;
-    margin-bottom: 18px;
+  @media (prefers-reduced-motion: reduce) {
+    .hero-demo-video { display: none; }
+    .hero-demo-poster { display: block; }
   }
-
-  .mock-hero-label {
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 10px;
-  }
-
-  .mock-hero-rows { display: flex; flex-direction: column; gap: 4px; margin-bottom: 20px; }
-
-  .mock-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 14px;
-    padding: 8px 8px;
-    border-radius: 8px;
-  }
-  .mock-row.pinned { background: var(--accent-soft); }
-
-  .mock-row-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.95rem;
-  }
-
-  .mock-star { color: var(--accent-strong); font-size: 0.85rem; }
 
   .keycap {
     display: inline-flex;
@@ -359,17 +326,6 @@
     color: var(--text);
     white-space: nowrap;
   }
-
-  .mock-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px 18px;
-    border-top: 1px solid var(--border);
-    padding-top: 16px;
-  }
-
-  .mock-columns .mock-row-label { font-size: 0.86rem; color: var(--text-muted); }
-  .mock-columns .keycap { font-size: 0.74rem; padding: 0.24em 0.45em; }
 
   .mock-hint {
     position: absolute;
@@ -717,38 +673,13 @@
       </div>
 
       <div class="mock-frame">
-        <div class="overlay-mock">
-          <div class="mock-search">⌕ ショートカットを検索…</div>
-
-          <div class="mock-hero-label">アクティブなアプリ</div>
-          <div class="mock-hero-rows">
-            <div class="mock-row pinned">
-              <span class="mock-row-label"><span class="mock-star">★</span>コピー</span>
-              <span class="keycap">⌘C</span>
-            </div>
-            <div class="mock-row">
-              <span class="mock-row-label">ペースト</span>
-              <span class="keycap">⌘V</span>
-            </div>
-            <div class="mock-row">
-              <span class="mock-row-label">取り消し</span>
-              <span class="keycap">⌘Z</span>
-            </div>
-            <div class="mock-row">
-              <span class="mock-row-label">保存</span>
-              <span class="keycap">⌘S</span>
-            </div>
-          </div>
-
-          <div class="mock-columns">
-            <div class="mock-row-label">新規ウインドウ</div><div class="keycap">⌘N</div>
-            <div class="mock-row-label">検索</div><div class="keycap">⌘F</div>
-            <div class="mock-row-label">環境設定</div><div class="keycap">⌘,</div>
-            <div class="mock-row-label">ウインドウを閉じる</div><div class="keycap">⌘W</div>
-            <div class="mock-row-label">次のタブ</div><div class="keycap">⌘⌥→</div>
-            <div class="mock-row-label">終了</div><div class="keycap">⌘Q</div>
-          </div>
-        </div>
+        <video
+          autoplay muted loop playsinline
+          poster="assets/demo-poster.jpg"
+          class="hero-demo-video">
+          <source src="assets/demo.mp4" type="video/mp4">
+        </video>
+        <img src="assets/demo-poster.jpg" alt="ShortcutsPeekのショートカット一覧オーバーレイのスクリーンショット" class="hero-demo-poster">
         <div class="mock-hint"><span class="keycap">⌘</span>を0.45秒長押しで表示</div>
       </div>
     </div>
