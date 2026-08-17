@@ -265,6 +265,15 @@
   }
   .hero-price-note strong { color: var(--text); }
 
+  .hero-trust-note {
+    margin-top: 10px;
+    font-size: 0.86rem;
+    color: var(--accent-strong);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
   /* ---------- overlay mockup ---------- */
 
   .mock-frame {
@@ -455,6 +464,33 @@
     border: 1px solid var(--border);
   }
 
+  .service-all { margin-top: 10px; }
+  .service-all summary {
+    cursor: pointer;
+    font-size: 0.82rem;
+    color: var(--accent-strong);
+    font-weight: 600;
+    list-style: none;
+  }
+  .service-all summary::-webkit-details-marker { display: none; }
+  .service-all summary::before { content: "+ "; }
+  .service-all[open] summary::before { content: "− "; }
+  .service-chip-row-all { margin-top: 10px; }
+  .service-search {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin-top: 10px;
+    padding: 0.4em 0.7em;
+    font: inherit;
+    font-size: 0.82rem;
+    color: var(--text);
+    background: var(--surface-sunken);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .service-search:focus { outline: none; border-color: var(--accent-strong); }
+
   /* ---------- comparison ---------- */
 
   .compare-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
@@ -585,6 +621,33 @@
   .footer-cta h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 800; margin-bottom: 16px; }
   .footer-cta p { color: var(--text-muted); margin-bottom: 30px; }
 
+  .share-row {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .share-label { font-size: 0.85rem; color: var(--text-muted); }
+  .share-btn {
+    font: inherit;
+    font-size: 0.85rem;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.5em 1.1em;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .share-btn:hover { border-color: var(--accent-strong); color: var(--accent-strong); }
+  .share-btn svg { width: 0.85em; height: 0.85em; fill: currentColor; flex-shrink: 0; }
+
   footer {
     border-top: 1px solid var(--border);
     padding: 36px 0;
@@ -650,6 +713,7 @@
           <a class="btn btn-ghost" href="#features">機能を見る</a>
         </div>
         <p class="hero-price-note">買い切り <strong>¥1,480</strong>・サブスクなし・macOS 14 Sonoma以降対応</p>
+        <p class="hero-trust-note">✓ Apple Developer IDで署名・公証済み — 野良アプリではありません</p>
       </div>
 
       <div class="mock-frame">
@@ -749,8 +813,55 @@
             <span class="service-chip">Canva</span>
             <span class="service-chip">ChatGPT</span>
             <span class="service-chip">Spotify</span>
-            <span class="service-chip">+ 毎週追加中</span>
           </div>
+          <details class="service-all">
+            <summary>すべて見る（42件、毎週追加中）</summary>
+            <input type="text" class="service-search" placeholder="アプリ名で検索…" oninput="const q=this.value.trim().toLowerCase();this.closest('details').querySelectorAll('.service-chip').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});">
+            <div class="service-chip-row service-chip-row-all">
+            <span class="service-chip">Airtable</span>
+            <span class="service-chip">Asana</span>
+            <span class="service-chip">Buffer</span>
+            <span class="service-chip">Canva</span>
+            <span class="service-chip">ChatGPT</span>
+            <span class="service-chip">ClickUp</span>
+            <span class="service-chip">Coda</span>
+            <span class="service-chip">Confluence</span>
+            <span class="service-chip">Discord</span>
+            <span class="service-chip">Excalidraw</span>
+            <span class="service-chip">Facebook</span>
+            <span class="service-chip">Figma</span>
+            <span class="service-chip">Frame.io</span>
+            <span class="service-chip">GitHub</span>
+            <span class="service-chip">Gmail</span>
+            <span class="service-chip">Google Docs</span>
+            <span class="service-chip">Google Drive</span>
+            <span class="service-chip">Google Forms</span>
+            <span class="service-chip">Google Meet</span>
+            <span class="service-chip">Google Sheets</span>
+            <span class="service-chip">Google Slides</span>
+            <span class="service-chip">Googleカレンダー</span>
+            <span class="service-chip">Jira</span>
+            <span class="service-chip">Linear</span>
+            <span class="service-chip">LinkedIn</span>
+            <span class="service-chip">Loom</span>
+            <span class="service-chip">Microsoft Teams</span>
+            <span class="service-chip">Miro</span>
+            <span class="service-chip">Notion</span>
+            <span class="service-chip">Outlook</span>
+            <span class="service-chip">Photopea</span>
+            <span class="service-chip">Reddit</span>
+            <span class="service-chip">Slack</span>
+            <span class="service-chip">Spotify</span>
+            <span class="service-chip">Todoist</span>
+            <span class="service-chip">Trello</span>
+            <span class="service-chip">Twitch</span>
+            <span class="service-chip">WhatsApp</span>
+            <span class="service-chip">X</span>
+            <span class="service-chip">YouTube</span>
+            <span class="service-chip">Zendesk</span>
+            <span class="service-chip">Zoom</span>
+            </div>
+          </details>
         </div>
         <div class="feature-card">
           <h3>macOS標準ショートカットも網羅</h3>
@@ -802,6 +913,12 @@
               <td class="highlight">開発中・週次アップデート</td>
               <td>開発中</td>
               <td>開発停止</td>
+            </tr>
+            <tr>
+              <td>システム全体の標準ショートカット表示</td>
+              <td class="highlight">◯</td>
+              <td>—</td>
+              <td>—</td>
             </tr>
             <tr>
               <td>Webアプリの補完DB</td>
@@ -878,6 +995,11 @@
       <h2>ショートカットを、覚えるものから見るものへ。</h2>
       <p>14日間、すべての機能を無料でお試しいただけます。</p>
       <a class="btn btn-primary" href="https://github.com/RelayWorks16/shortcutspeek-releases/releases/latest/download/ShortcutsPeek.dmg" target="_blank" rel="noopener">14日間無料で試す</a>
+      <div class="share-row">
+        <span class="share-label">良いと思ったらシェア</span>
+        <a class="share-btn" href="https://x.com/intent/post?text=%E2%8C%98%E3%82%92%E9%95%B7%E6%8A%BC%E3%81%97%E3%81%99%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E3%80%81%E4%BB%8A%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95%E3%81%8C%E5%85%A8%E9%83%A8%E8%A6%8B%E3%81%88%E3%82%8B%E3%80%82ShortcutsPeek%E3%80%82&url=https%3A%2F%2Frelayworks16.github.io%2Fshortcutspeek%2F" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.1-9.3L1 2h7l4.9 6L18.9 2Zm-1.2 18h1.9L7.4 4H5.3l12.4 16Z"/></svg>シェア</a>
+        <button type="button" class="share-btn" onclick="navigator.clipboard.writeText('https://relayworks16.github.io/shortcutspeek/').then(()=>{this.textContent='コピーしました';setTimeout(()=>{this.textContent='リンクをコピー';},1800);})">リンクをコピー</button>
+      </div>
     </div>
   </section>
 </main>
