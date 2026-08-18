@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>特定商取引法に基づく表記 | ShortcutsPeek</title>
+<meta name="description" content="ShortcutsPeekの販売にあたり、特定商取引法第11条に基づき表示する事業者情報です。">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<style>
+  @font-face {
+    /* intentionally unused: system fonts only, see note below */
+  }
+
+  :root {
+    color-scheme: light dark;
+
+    /* light palette (default) */
+    --bg: #f6f6f3;
+    --surface: #ffffff;
+    --surface-raised: #ffffff;
+    --surface-sunken: #edede8;
+    --text: #16171a;
+    --text-muted: #5b5e64;
+    --border: #e2e1dc;
+    --accent: #0f9d64;
+    --accent-strong: #0b7a4e;
+    --accent-soft: #e4f5ec;
+    --accent-ink: #ffffff;
+    --key-bg: #ffffff;
+    --key-border: #d8d7d1;
+    --key-shadow: #c9c8c2;
+    --shadow: 220 20% 45%;
+    --danger-soft: #fbeceb;
+    --danger-ink: #a23a30;
+
+    --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1b1b1f;
+      --surface: #232327;
+      --surface-raised: #28282d;
+      --surface-sunken: #17171a;
+      --text: #f2f2f0;
+      --text-muted: #a2a5ac;
+      --border: #38383e;
+      --accent: #68d297;
+      --accent-strong: #8ce0b2;
+      --accent-soft: #1f3a2c;
+      --accent-ink: #10241a;
+      --key-bg: #2b2b30;
+      --key-border: #3e3e45;
+      --key-shadow: #0e0e10;
+      --danger-soft: #3a2220;
+      --danger-ink: #f0a89f;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #1b1b1f;
+    --surface: #232327;
+    --surface-raised: #28282d;
+    --surface-sunken: #17171a;
+    --text: #f2f2f0;
+    --text-muted: #a2a5ac;
+    --border: #38383e;
+    --accent: #68d297;
+    --accent-strong: #8ce0b2;
+    --accent-soft: #1f3a2c;
+    --accent-ink: #10241a;
+    --key-bg: #2b2b30;
+    --key-border: #3e3e45;
+    --key-shadow: #0e0e10;
+    --danger-soft: #3a2220;
+    --danger-ink: #f0a89f;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    line-height: 1.7;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  img { max-width: 100%; display: block; }
+
+  a { color: inherit; }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- header ---------- */
+
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    backdrop-filter: saturate(180%) blur(14px);
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 64px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .brand img { width: 28px; height: 28px; border-radius: 7px; }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .site-nav a {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+  .site-nav a:hover { color: var(--text); }
+  .site-nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0.7em 1.3em;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-family: var(--font-body);
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .btn-primary {
+    background: var(--accent);
+    color: var(--accent-ink);
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+  }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 16px -6px hsl(var(--shadow) / 0.5); }
+
+  .btn-ghost {
+    background: transparent;
+    border-color: var(--border);
+    color: var(--text);
+  }
+  .btn-ghost:hover { background: var(--surface-sunken); }
+
+  .site-nav .btn-primary { color: #16171a; }
+
+  .btn-sm { padding: 0.55em 1em; font-size: 0.85rem; }
+
+  /* ---------- hero ---------- */
+
+  .hero {
+    padding: 72px 0 88px;
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent-strong);
+    margin-bottom: 18px;
+  }
+
+  .eyebrow::before {
+    content: "";
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .hero h1 {
+    font-size: clamp(2.15rem, 4.2vw, 3.15rem);
+    font-weight: 800;
+    line-height: 1.28;
+  }
+
+  .hero h1 .cmd {
+    font-family: var(--font-mono);
+    color: var(--accent-strong);
+  }
+
+  .hero-sub {
+    margin-top: 22px;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 46ch;
+  }
+
+  .hero-cta {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .hero-price-note {
+    margin-top: 16px;
+    font-size: 0.86rem;
+    color: var(--text-muted);
+  }
+  .hero-price-note strong { color: var(--text); }
+
+  .hero-trust-note {
+    margin-top: 10px;
+    font-size: 0.86rem;
+    color: var(--accent-strong);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ---------- overlay mockup ---------- */
+
+  .mock-frame {
+    position: relative;
+    padding: 30px;
+  }
+
+  .mock-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(60% 55% at 60% 20%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-demo-video,
+  .hero-demo-poster {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: 0 30px 60px -20px hsl(var(--shadow) / 0.45), 0 4px 14px -6px hsl(var(--shadow) / 0.3);
+    margin: 0 auto;
+    background: var(--surface-raised);
+  }
+  .hero-demo-poster { display: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-demo-video { display: none; }
+    .hero-demo-poster { display: block; }
+  }
+
+  .keycap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-width: 1.9em;
+    padding: 0.32em 0.55em;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.82rem;
+    border-radius: 7px;
+    background: var(--key-bg);
+    border: 1px solid var(--key-border);
+    box-shadow: 0 2px 0 var(--key-shadow);
+    color: var(--text);
+    white-space: nowrap;
+  }
+
+  .mock-hint {
+    position: absolute;
+    bottom: -18px;
+    right: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.76rem;
+    padding: 6px 12px;
+    border-radius: 999px;
+    box-shadow: 0 8px 20px -10px hsl(var(--shadow) / 0.4);
+  }
+  .mock-hint .keycap { font-size: 0.72rem; padding: 0.15em 0.4em; margin: 0 2px; }
+
+  /* ---------- generic section scaffolding ---------- */
+
+  section { padding: 88px 0; }
+  section.tight { padding: 64px 0; }
+
+  .section-head {
+    max-width: 640px;
+    margin-bottom: 48px;
+  }
+  .section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+
+  .section-head h2 {
+    font-size: clamp(1.5rem, 2.6vw, 2rem);
+    font-weight: 800;
+  }
+
+  .section-head p {
+    margin-top: 14px;
+    color: var(--text-muted);
+    font-size: 1.02rem;
+  }
+
+  .alt-bg { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+
+  /* ---------- problem ---------- */
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .problem-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 26px;
+  }
+
+  .problem-card .keycap { margin-bottom: 16px; }
+  .problem-card h3 { font-size: 1.02rem; font-weight: 700; margin-bottom: 8px; }
+  .problem-card p { color: var(--text-muted); font-size: 0.92rem; margin: 0; }
+
+  /* ---------- features ---------- */
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .feature-card .keycap-row { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+  .feature-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
+  .feature-card p { color: var(--text-muted); font-size: 0.9rem; margin: 0; }
+
+  .feature-card.wide { grid-column: span 2; }
+
+  .service-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 14px;
+  }
+  .service-chip {
+    font-size: 0.76rem;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: var(--surface-sunken);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+
+  .service-all { margin-top: 10px; }
+  .service-all summary {
+    cursor: pointer;
+    font-size: 0.82rem;
+    color: var(--accent-strong);
+    font-weight: 600;
+    list-style: none;
+  }
+  .service-all summary::-webkit-details-marker { display: none; }
+  .service-all summary::before { content: "+ "; }
+  .service-all[open] summary::before { content: "− "; }
+  .service-chip-row-all { margin-top: 10px; }
+  .service-search {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin-top: 10px;
+    padding: 0.4em 0.7em;
+    font: inherit;
+    font-size: 0.82rem;
+    color: var(--text);
+    background: var(--surface-sunken);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .service-search:focus { outline: none; border-color: var(--accent-strong); }
+
+  /* ---------- comparison ---------- */
+
+  .compare-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+
+  table.compare {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 640px;
+    font-size: 0.92rem;
+  }
+
+  table.compare th, table.compare td {
+    text-align: left;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  table.compare th { color: var(--text-muted); font-weight: 600; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  table.compare tbody tr:last-child td { border-bottom: none; }
+  table.compare td:first-child, table.compare th:first-child { color: var(--text); font-weight: 600; }
+
+  table.compare td.highlight { color: var(--accent-strong); font-weight: 700; }
+  table.compare col.me { background: var(--accent-soft); }
+  .compare-note { margin-top: 14px; font-size: 0.8rem; color: var(--text-muted); }
+
+  /* ---------- pricing ---------- */
+
+  .pricing-card {
+    max-width: 480px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 30px 60px -30px hsl(var(--shadow) / 0.35);
+  }
+
+  .price-tag {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 6px;
+    margin: 18px 0 6px;
+  }
+  .price-tag .amount { font-family: var(--font-display); font-size: 3rem; font-weight: 800; }
+  .price-tag .currency { font-size: 1.1rem; color: var(--text-muted); }
+  .price-tag .period { font-size: 0.95rem; color: var(--text-muted); }
+
+  .pricing-card .trial-note {
+    font-size: 0.86rem;
+    color: var(--accent-strong);
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  .pricing-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .pricing-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+  }
+  .pricing-list li::before {
+    content: "";
+    width: 6px; height: 6px;
+    margin-top: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .pricing-card .btn { width: 100%; }
+  .pricing-fineprint { margin-top: 16px; font-size: 0.78rem; color: var(--text-muted); }
+
+  /* ---------- faq ---------- */
+
+  .faq-list { display: flex; flex-direction: column; gap: 10px; max-width: 760px; }
+
+  details.faq-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 4px 22px;
+  }
+
+  details.faq-item summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 18px 0;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  details.faq-item summary::-webkit-details-marker { display: none; }
+  details.faq-item summary::after {
+    content: "+";
+    font-size: 1.3rem;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    transition: transform .2s ease;
+  }
+  details.faq-item[open] summary::after { transform: rotate(45deg); }
+
+  details.faq-item p {
+    margin: 0 0 20px;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    max-width: 68ch;
+  }
+
+  /* ---------- footer cta ---------- */
+
+  .footer-cta {
+    text-align: center;
+  }
+  .footer-cta h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 800; margin-bottom: 16px; }
+  .footer-cta p { color: var(--text-muted); margin-bottom: 30px; }
+
+  .share-row {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .share-label { font-size: 0.85rem; color: var(--text-muted); }
+  .share-btn {
+    font: inherit;
+    font-size: 0.85rem;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.5em 1.1em;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .share-btn:hover { border-color: var(--accent-strong); color: var(--accent-strong); }
+  .share-btn svg { width: 0.85em; height: 0.85em; fill: currentColor; flex-shrink: 0; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 36px 0;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+  footer .foot-links { display: flex; gap: 20px; }
+  footer a { text-decoration: none; }
+  footer a:hover { color: var(--text); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+
+  @media (max-width: 860px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero { padding: 48px 0 64px; }
+    .problem-grid, .feature-grid { grid-template-columns: 1fr; }
+    .feature-card.wide { grid-column: span 1; }
+    .site-nav a:not(.btn) { display: none; }
+    section { padding: 64px 0; }
+    .pricing-card { padding: 28px; }
+  }
+</style>
+  <style>
+  .legal-header {
+    padding: 20px 0;
+  }
+  .legal-header a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .legal-header a:hover { color: var(--text); }
+
+  .legal-main {
+    padding: 20px 0 80px;
+  }
+  .legal-main h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .legal-main .legal-lead {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+  }
+
+  table.legal {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  table.legal tbody { display: block; }
+  table.legal tr {
+    display: block;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  table.legal tr:last-child { border-bottom: none; }
+  table.legal th, table.legal td {
+    display: block;
+    text-align: left;
+    font-size: 0.92rem;
+  }
+  table.legal th {
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  table.legal td { color: var(--text); line-height: 1.7; }
+  </style>
+</head>
+<body>
+
+<header class="site-header legal-header">
+  <div class="container">
+    <a href="index.html">← ShortcutsPeekに戻る</a>
+  </div>
+</header>
+
+<main class="legal-main">
+  <div class="container" style="max-width: 720px;">
+    <h1>特定商取引法に基づく表記</h1>
+    <p class="legal-lead">「ShortcutsPeek」の販売にあたり、特定商取引法第11条に基づき以下の通り表示します。</p>
+
+    <table class="legal">
+      <tbody>
+        <tr>
+          <th>販売業者名</th>
+          <td>岡崎和也（屋号: RelayWorks）</td>
+        </tr>
+        <tr>
+          <th>運営統括責任者</th>
+          <td>岡崎和也</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>ご請求をいただいた場合には、遅滞なく開示いたします</td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+          <td>ご請求をいただいた場合には、遅滞なく開示いたします</td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td>contact@re-lay.co.jp</td>
+        </tr>
+        <tr>
+          <th>販売価格</th>
+          <td>¥1,480（税込）</td>
+        </tr>
+        <tr>
+          <th>商品代金以外の必要料金</th>
+          <td>なし（Gumroadの決済手数料は販売価格に含む）</td>
+        </tr>
+        <tr>
+          <th>支払方法</th>
+          <td>クレジットカード決済（Gumroad経由）</td>
+        </tr>
+        <tr>
+          <th>支払時期</th>
+          <td>購入時に即時決済</td>
+        </tr>
+        <tr>
+          <th>引渡時期</th>
+          <td>決済完了後、即座にダウンロード可能</td>
+        </tr>
+        <tr>
+          <th>返品・返金について</th>
+          <td>本アプリは購入前に14日間、すべての機能を無料でお試しいただけます。この試用期間内でご自身の環境・用途に合うかご確認のうえご購入ください。この仕組みにより、購入後の返金は原則として承っておりません。ただし、アプリの不具合など当方に起因する問題がある場合は個別にご相談ください。</td>
+        </tr>
+        <tr>
+          <th>動作環境</th>
+          <td>macOS 14 Sonoma以降</td>
+        </tr>
+        <tr>
+          <th>所在地・電話番号の開示について</th>
+          <td>個人で運営しているため、所在地及び電話番号については、ご請求をいただいた場合に遅滞なく開示いたします。開示をご希望の場合は、上記メールアドレスまでご連絡ください。</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div>© 2026 ShortcutsPeek</div>
+    <div class="foot-links">
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#pricing">料金</a>
+      <a href="tokushoho.html">特定商取引法に基づく表記</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
