@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://relayworks16.github.io/shortcutspeek/sitemap.xml
