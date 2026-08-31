@@ -490,6 +490,8 @@
   table.compare td.highlight { color: var(--accent-strong); font-weight: 700; }
   table.compare col.me { background: var(--accent-soft); }
   .compare-note { margin-top: 14px; font-size: 0.8rem; color: var(--text-muted); }
+  .compare-note a { color: var(--accent-strong); text-decoration: underline; }
+  .compare-note a:hover { color: var(--accent); }
 
   /* ---------- pricing ---------- */
 
@@ -740,7 +742,7 @@
         <div class="feature-card wide">
           <div class="keycap-row"><span class="keycap">⌘</span><span class="keycap">長押し</span></div>
           <h3>アプリを問わず、その場で一覧表示</h3>
-          <p>今使っているアプリのメニューをAccessibility APIで解析し、フラット・モノクロの2カラムでまとめて表示。文字キーを使わない「⌘単独長押し」方式なので、既存のショートカットと衝突しません。</p>
+          <p>今使っているアプリのメニューをAccessibility APIで解析し、フラット・モノクロの2カラムでまとめて表示。文字キーを使わない「⌘単独長押し」方式なので、既存のショートカットと衝突しません。きちんとしたメニューバーを持つMacアプリなら、下の対応アプリ一覧に載っていなくても追加設定なしでそのまま使えます。Photoshop、Illustrator、Premiere Pro、Final Cut Proのようなプロ向けアプリも対象です。</p>
         </div>
         <div class="feature-card">
           <div class="keycap-row"><span class="keycap">★</span></div>
@@ -765,9 +767,10 @@
             <span class="service-chip">Spotify</span>
           </div>
           <details class="service-all">
-            <summary>すべて見る（52件、毎週追加中）</summary>
+            <summary>すべて見る（59件、毎週追加中）</summary>
             <input type="text" class="service-search" placeholder="アプリ名で検索…" oninput="const q=this.value.trim().toLowerCase();this.closest('details').querySelectorAll('.service-chip').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});">
             <div class="service-chip-row service-chip-row-all">
+            <span class="service-chip">Adobe Express</span>
             <span class="service-chip">Airtable</span>
             <span class="service-chip">Asana</span>
             <span class="service-chip">Backlog</span>
@@ -776,9 +779,12 @@
             <span class="service-chip">ChatGPT</span>
             <span class="service-chip">Chatwork</span>
             <span class="service-chip">ClickUp</span>
+            <span class="service-chip">Clipchamp</span>
             <span class="service-chip">Coda</span>
             <span class="service-chip">Confluence</span>
+            <span class="service-chip">DaVinci Resolve</span>
             <span class="service-chip">DeepL</span>
+            <span class="service-chip">Descript</span>
             <span class="service-chip">Discord</span>
             <span class="service-chip">Excalidraw</span>
             <span class="service-chip">Facebook</span>
@@ -795,6 +801,8 @@
             <span class="service-chip">Google Slides</span>
             <span class="service-chip">Googleカレンダー</span>
             <span class="service-chip">Jira</span>
+            <span class="service-chip">Kapwing</span>
+            <span class="service-chip">Lightroom Web版</span>
             <span class="service-chip">LINE</span>
             <span class="service-chip">LINE WORKS</span>
             <span class="service-chip">Linear</span>
@@ -808,6 +816,7 @@
             <span class="service-chip">Notion Calendar</span>
             <span class="service-chip">Outlook</span>
             <span class="service-chip">Photopea</span>
+            <span class="service-chip">Photoshop Web版</span>
             <span class="service-chip">Reddit</span>
             <span class="service-chip">Slack</span>
             <span class="service-chip">Spotify</span>
@@ -822,6 +831,7 @@
             <span class="service-chip">Zoom</span>
             </div>
           </details>
+          <p class="compare-note">お探しのアプリが見つからない場合は<a href="mailto:contact@re-lay.co.jp?subject=ShortcutsPeek%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%82%A2%E3%83%97%E3%83%AA%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88">こちらから追加をリクエスト</a>してください。</p>
         </div>
         <div class="feature-card">
           <h3>macOS標準ショートカットも網羅</h3>
@@ -970,6 +980,7 @@
     <div class="foot-links">
       <a href="#faq">FAQ</a>
       <a href="#pricing">料金</a>
+      <a href="mailto:contact@re-lay.co.jp?subject=ShortcutsPeek%E3%81%B8%E3%81%AE%E3%81%94%E6%84%8F%E8%A6%8B%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B">お問い合わせ</a>
       <a href="tokushoho.html">特定商取引法に基づく表記</a>
     </div>
   </div>
