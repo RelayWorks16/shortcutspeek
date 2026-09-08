@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>特定商取引法に基づく表記 | ShortcutsPeek</title>
-<meta name="description" content="ShortcutsPeekの販売にあたり、特定商取引法第11条に基づき表示する事業者情報です。">
+<title>使い方ガイド | ShortcutsPeek</title>
+<meta name="description" content="ShortcutsPeekの基本的な使い方（起動・権限許可、お気に入り、非表示、検索、自分のメモ、設定）をまとめました。">
 <link rel="icon" type="image/png" href="assets/favicon.png">
-<link rel="canonical" href="https://relayworks16.github.io/shortcutspeek/tokushoho.html">
+<link rel="canonical" href="https://relayworks16.github.io/shortcutspeek/howto.html">
 <style>
   @font-face {
     /* intentionally unused: system fonts only, see note below */
@@ -651,32 +651,37 @@
     margin-bottom: 32px;
   }
 
-  table.legal {
-    display: block;
-    width: 100%;
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    overflow: hidden;
-    background: var(--surface);
-  }
-  table.legal tbody { display: block; }
-  table.legal tr {
-    display: block;
-    padding: 16px 20px;
+  .howto-step {
+    display: flex;
+    gap: 16px;
+    padding: 20px 0;
     border-bottom: 1px solid var(--border);
   }
-  table.legal tr:last-child { border-bottom: none; }
-  table.legal th, table.legal td {
-    display: block;
-    text-align: left;
-    font-size: 0.92rem;
+  .howto-step:last-child { border-bottom: none; }
+  .howto-step .howto-num {
+    flex: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  table.legal th {
-    color: var(--text-muted);
-    font-weight: 600;
+  .howto-step h2 {
+    font-size: 1.02rem;
+    font-weight: 700;
     margin-bottom: 4px;
   }
-  table.legal td { color: var(--text); line-height: 1.7; }
+  .howto-step p {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+  .howto-step .keycap-row { margin-bottom: 8px; }
   </style>
 </head>
 <body>
@@ -689,65 +694,68 @@
 
 <main class="legal-main">
   <div class="container" style="max-width: 720px;">
-    <h1>特定商取引法に基づく表記</h1>
-    <p class="legal-lead">「ShortcutsPeek」の販売にあたり、特定商取引法第11条に基づき以下の通り表示します。</p>
+    <h1>ShortcutsPeekの使い方</h1>
+    <p class="legal-lead">インストールから、お気に入り・メモ機能まで一通りの使い方をまとめています。</p>
 
-    <table class="legal">
-      <tbody>
-        <tr>
-          <th>販売業者名</th>
-          <td>岡崎和也（屋号: RelayWorks）</td>
-        </tr>
-        <tr>
-          <th>運営統括責任者</th>
-          <td>岡崎和也</td>
-        </tr>
-        <tr>
-          <th>所在地</th>
-          <td>ご請求をいただいた場合には、遅滞なく開示いたします</td>
-        </tr>
-        <tr>
-          <th>電話番号</th>
-          <td>ご請求をいただいた場合には、遅滞なく開示いたします</td>
-        </tr>
-        <tr>
-          <th>メールアドレス</th>
-          <td>contact@re-lay.co.jp</td>
-        </tr>
-        <tr>
-          <th>販売価格</th>
-          <td>¥1,480（税込）</td>
-        </tr>
-        <tr>
-          <th>商品代金以外の必要料金</th>
-          <td>なし（Gumroadの決済手数料は販売価格に含む）</td>
-        </tr>
-        <tr>
-          <th>支払方法</th>
-          <td>クレジットカード決済（Gumroad経由）</td>
-        </tr>
-        <tr>
-          <th>支払時期</th>
-          <td>購入時に即時決済</td>
-        </tr>
-        <tr>
-          <th>引渡時期</th>
-          <td>決済完了後、即座にダウンロード可能</td>
-        </tr>
-        <tr>
-          <th>返品・返金について</th>
-          <td>本アプリは購入前に14日間、すべての機能を無料でお試しいただけます。この試用期間内でご自身の環境・用途に合うかご確認のうえご購入ください。この仕組みにより、購入後の返金は原則として承っておりません。ただし、アプリの不具合など当方に起因する問題がある場合は個別にご相談ください。</td>
-        </tr>
-        <tr>
-          <th>動作環境</th>
-          <td>macOS 14 Sonoma以降</td>
-        </tr>
-        <tr>
-          <th>所在地・電話番号の開示について</th>
-          <td>個人で運営しているため、所在地及び電話番号については、ご請求をいただいた場合に遅滞なく開示いたします。開示をご希望の場合は、上記メールアドレスまでご連絡ください。</td>
-        </tr>
-      </tbody>
-    </table>
+    <div>
+      <div class="howto-step">
+        <div class="howto-num">1</div>
+        <div>
+          <h2>起動してAccessibility権限を許可する</h2>
+          <p>初回起動時に権限の許可を求められます。他のアプリのメニュー内容を読み取るために必要な権限で、ショートカット以外の情報は取得しません。「システム設定」から許可すると使えるようになります。</p>
+        </div>
+      </div>
+
+      <div class="howto-step">
+        <div class="howto-num">2</div>
+        <div>
+          <div class="keycap-row"><span class="keycap">⌘</span><span class="keycap">長押し</span></div>
+          <h2>⌘を長押しして一覧を出す</h2>
+          <p>今アクティブなアプリのショートカット一覧がその場に浮かび上がります。指を離すと消えるので、覚えたいショートカットが見つかったらそのまま操作してみてください。長押しの時間は設定画面から変更できます。</p>
+        </div>
+      </div>
+
+      <div class="howto-step">
+        <div class="howto-num">3</div>
+        <div>
+          <div class="keycap-row"><span class="keycap">★</span></div>
+          <h2>よく使う操作をお気に入りに登録する</h2>
+          <p>各ショートカットの★をクリックすると、そのアプリの一覧の一番上にまとめて表示されるようになります。お気に入り同士はドラッグで好きな順番に並べ替えられます。</p>
+        </div>
+      </div>
+
+      <div class="howto-step">
+        <div class="howto-num">4</div>
+        <div>
+          <h2>もう覚えた操作は非表示にする</h2>
+          <p>ショートカットを右クリックすると「表示しない」を選べます。使い慣れた操作を一覧から隠して、まだ覚えていない操作だけに絞り込めます。非表示にした項目は設定画面からいつでも再表示できます。</p>
+        </div>
+      </div>
+
+      <div class="howto-step">
+        <div class="howto-num">5</div>
+        <div>
+          <h2>検索で探す</h2>
+          <p>一覧の上部にある検索欄では、操作名・キー表記（例:「⌘C」）・自分のメモのどちらでも探せます。「スクショ」のような略称でも「スクリーンショット」がヒットするようになっています。</p>
+        </div>
+      </div>
+
+      <div class="howto-step">
+        <div class="howto-num">6</div>
+        <div>
+          <h2>自分のメモを使う</h2>
+          <p>アプリのメニューに出てこない操作（例: あるWebサービス独自のショートカットや、AIツールのスラッシュコマンドなど）は、「自分のメモ」に自由に登録しておけます。一覧の「＋」から「やりたいこと」と「呼び出し方」を入力するだけです。アプリごとに保存され、他のアプリやサイトのメモとは混ざりません。</p>
+        </div>
+      </div>
+
+      <div class="howto-step">
+        <div class="howto-num">7</div>
+        <div>
+          <h2>好みに合わせて調整する</h2>
+          <p>メニューバーアイコンから設定画面を開くと、起動キー・長押し時間・ウインドウの大きさや位置・文字サイズを変更できます。対応アプリを増やしてほしいときや不具合の報告も、設定画面からメールで送れます。</p>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 
