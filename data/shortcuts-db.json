@@ -1,0 +1,4311 @@
+[
+  {
+    "displayName" : "YouTube",
+    "items" : [
+      {
+        "keyLabel" : "K",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "10秒巻き戻し"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "10秒早送り"
+      },
+      {
+        "keyLabel" : ",",
+        "title" : "前のフレーム(一時停止中)"
+      },
+      {
+        "keyLabel" : ".",
+        "title" : "次のフレーム(一時停止中)"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面切替"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "シアターモード切替"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "ミニプレイヤー切替"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "字幕オン\/オフ"
+      },
+      {
+        "keyLabel" : "⇧N",
+        "title" : "次の動画"
+      },
+      {
+        "keyLabel" : "⇧P",
+        "title" : "前の動画"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "youtube.com"
+    ]
+  },
+  {
+    "displayName" : "Gmail",
+    "items" : [
+      {
+        "keyLabel" : "C",
+        "title" : "新規メール作成"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "返信"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "全員に返信"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "転送"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "アーカイブ"
+      },
+      {
+        "keyLabel" : "#",
+        "title" : "削除"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次のメール"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前のメール"
+      },
+      {
+        "keyLabel" : "O または ⏎",
+        "title" : "メールを開く"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "送信"
+      },
+      {
+        "keyLabel" : "Z",
+        "title" : "元に戻す"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "mail.google.com"
+    ]
+  },
+  {
+    "displayName" : "Notion",
+    "items" : [
+      {
+        "keyLabel" : "⌘P",
+        "title" : "クイック検索\/移動"
+      },
+      {
+        "keyLabel" : "⌘N",
+        "title" : "新規ページ"
+      },
+      {
+        "keyLabel" : "⌥⌘1",
+        "title" : "見出し1"
+      },
+      {
+        "keyLabel" : "⌥⌘2",
+        "title" : "見出し2"
+      },
+      {
+        "keyLabel" : "⌥⌘3",
+        "title" : "見出し3"
+      },
+      {
+        "keyLabel" : "⇧⌘8",
+        "title" : "箇条書きリスト"
+      },
+      {
+        "keyLabel" : "⇧⌘7",
+        "title" : "番号付きリスト"
+      },
+      {
+        "keyLabel" : "⇧⌘9",
+        "title" : "チェックボックス"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "コメント追加"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⇧⌘S",
+        "title" : "取り消し線"
+      }
+    ],
+    "matchBundleIDs" : [
+      "notion.id"
+    ],
+    "matchDomains" : [
+      "notion.so",
+      "notion.com"
+    ]
+  },
+  {
+    "displayName" : "Slack",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイックスイッチャー"
+      },
+      {
+        "keyLabel" : "⇧⌘A",
+        "title" : "すべての未読を表示"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "メンションと返信"
+      },
+      {
+        "keyLabel" : "⌥⌘→",
+        "title" : "次のワークスペース"
+      },
+      {
+        "keyLabel" : "⌥⌘←",
+        "title" : "前のワークスペース"
+      },
+      {
+        "keyLabel" : "⌥↓",
+        "title" : "次の未読チャンネル"
+      },
+      {
+        "keyLabel" : "⌥↑",
+        "title" : "前の未読チャンネル"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "スレッドを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘\\",
+        "title" : "絵文字リアクション"
+      },
+      {
+        "keyLabel" : "↑ (入力欄が空の時)",
+        "title" : "メッセージを編集"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.tinyspeck.slackmacgap"
+    ],
+    "matchDomains" : [
+      "slack.com"
+    ]
+  },
+  {
+    "displayName" : "Figma",
+    "items" : [
+      {
+        "keyLabel" : "V",
+        "title" : "移動ツール"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "フレーム作成"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "長方形作成"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストツール"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⇧A",
+        "title" : "オートレイアウト追加"
+      },
+      {
+        "keyLabel" : "⇧1",
+        "title" : "全体を表示"
+      },
+      {
+        "keyLabel" : "⇧2",
+        "title" : "選択範囲にズーム"
+      },
+      {
+        "keyLabel" : "⇧D",
+        "title" : "開発モード切替"
+      },
+      {
+        "keyLabel" : "⌘\\",
+        "title" : "UIパネル表示\/非表示"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.figma.Desktop"
+    ],
+    "matchDomains" : [
+      "figma.com"
+    ]
+  },
+  {
+    "displayName" : "Linear",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドメニュー"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "新規Issue作成"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "Issueを編集"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "ステータス変更"
+      },
+      {
+        "keyLabel" : "P",
+        "title" : "優先度変更"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "自分にアサイン"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "ラベル追加"
+      },
+      {
+        "keyLabel" : "G → I",
+        "title" : "マイIssueへ移動"
+      },
+      {
+        "keyLabel" : "G → P",
+        "title" : "プロジェクト一覧へ移動"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索を開く"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "詳細サイドバー表示"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "戻る"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.linear"
+    ],
+    "matchDomains" : [
+      "linear.app"
+    ]
+  },
+  {
+    "displayName" : "Googleカレンダー",
+    "items" : [
+      {
+        "keyLabel" : "C",
+        "title" : "予定を作成"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "予定の詳細を表示"
+      },
+      {
+        "keyLabel" : "⌘S",
+        "title" : "予定を保存"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "今日に移動"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次の期間へ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前の期間へ移動"
+      },
+      {
+        "keyLabel" : "D",
+        "title" : "日表示"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "週表示"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "月表示"
+      },
+      {
+        "keyLabel" : "⌫",
+        "title" : "予定を削除"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "Z",
+        "title" : "元に戻す"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "calendar.google.com"
+    ]
+  },
+  {
+    "displayName" : "GitHub",
+    "items" : [
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "サイト内検索にフォーカス"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドパレットを開く"
+      },
+      {
+        "keyLabel" : "G → N",
+        "title" : "通知に移動"
+      },
+      {
+        "keyLabel" : "G → C",
+        "title" : "コードタブに移動"
+      },
+      {
+        "keyLabel" : "G → I",
+        "title" : "Issueタブに移動"
+      },
+      {
+        "keyLabel" : "G → P",
+        "title" : "プルリクエストタブに移動"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "新規Issueを作成"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "コメントを送信"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "コメントを太字にする"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "ファイルファインダーを開く"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "Issue\/PR検索にフォーカス"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "github.com"
+    ]
+  },
+  {
+    "displayName" : "Google Docs",
+    "items" : [
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "斜体"
+      },
+      {
+        "keyLabel" : "⌘U",
+        "title" : "下線"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⇧⌘H",
+        "title" : "検索と置換"
+      },
+      {
+        "keyLabel" : "⌥⌘M",
+        "title" : "コメントを挿入"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "リンクを挿入"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⇧⌘C",
+        "title" : "文字数を表示"
+      },
+      {
+        "keyLabel" : "⌘P",
+        "title" : "印刷"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "docs.google.com"
+    ]
+  },
+  {
+    "displayName" : "Google Sheets",
+    "items" : [
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "斜体"
+      },
+      {
+        "keyLabel" : "⇧⌘H",
+        "title" : "検索と置換"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "下方向にフィル"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "リンクを挿入"
+      },
+      {
+        "keyLabel" : "⌥⌘M",
+        "title" : "コメントを挿入"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌥⌘=",
+        "title" : "行を上に挿入"
+      },
+      {
+        "keyLabel" : "⌥⌘9",
+        "title" : "行を非表示"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "sheets.google.com"
+    ]
+  },
+  {
+    "displayName" : "Discord",
+    "items" : [
+      {
+        "keyLabel" : "⌘,",
+        "title" : "ユーザー設定を開く"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⇧⌘N",
+        "title" : "サーバーを作成\/参加"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイックスイッチャー"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "現在のチャンネル内を検索"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "全チャンネルを検索"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "絵文字ピッカーを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "マイクのミュート切り替え"
+      },
+      {
+        "keyLabel" : "⇧⌘D",
+        "title" : "スピーカーミュート切り替え"
+      },
+      {
+        "keyLabel" : "⌥⌘↓",
+        "title" : "サーバーを切り替え"
+      },
+      {
+        "keyLabel" : "⇧⌘U",
+        "title" : "ファイルをアップロード"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.hnc.Discord"
+    ],
+    "matchDomains" : [
+      "discord.com"
+    ]
+  },
+  {
+    "displayName" : "Trello",
+    "items" : [
+      {
+        "keyLabel" : "B",
+        "title" : "ボード検索を開く"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "カードフィルターを開く"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "カードタイトルを編集"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次のカードへ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前のカードへ移動"
+      },
+      {
+        "keyLabel" : "N",
+        "title" : "新規カードを作成"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "カードをアーカイブ"
+      },
+      {
+        "keyLabel" : "Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "Space",
+        "title" : "自分をカードに割り当て"
+      },
+      {
+        "keyLabel" : "D",
+        "title" : "期限日を設定"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "ラベルメニューを開く"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "trello.com"
+    ]
+  },
+  {
+    "displayName" : "Asana",
+    "items" : [
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "Tab → Q",
+        "title" : "クイック追加(タスク作成)"
+      },
+      {
+        "keyLabel" : "Tab → X",
+        "title" : "フォーカスモード切り替え"
+      },
+      {
+        "keyLabel" : "Tab → M",
+        "title" : "自分をアサイン"
+      },
+      {
+        "keyLabel" : "Tab",
+        "title" : "タスク詳細を開く"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "タスク詳細を閉じる"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "選択タスクを完了"
+      },
+      {
+        "keyLabel" : "⌘↑",
+        "title" : "タスクを上に移動"
+      },
+      {
+        "keyLabel" : "⌘↓",
+        "title" : "タスクを下に移動"
+      },
+      {
+        "keyLabel" : "Tab → H",
+        "title" : "お気に入り登録"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "app.asana.com"
+    ]
+  },
+  {
+    "displayName" : "Todoist",
+    "items" : [
+      {
+        "keyLabel" : "Q",
+        "title" : "クイック追加(タスク作成)"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "タスクを完了"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "タスクを編集"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "期限日を設定"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "ラベルを追加"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "コメントを追加"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘2",
+        "title" : "今日のタスクに移動"
+      },
+      {
+        "keyLabel" : "⌘3",
+        "title" : "Upcomingに移動"
+      },
+      {
+        "keyLabel" : "⌘1",
+        "title" : "Inboxに移動"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "サイドバー開閉"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドメニューを開く"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.todoist.mac.Todoist"
+    ],
+    "matchDomains" : [
+      "todoist.com",
+      "app.todoist.com"
+    ]
+  },
+  {
+    "displayName" : "Miro",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドパレットを開く"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌥1",
+        "title" : "全体表示に合わせる"
+      },
+      {
+        "keyLabel" : "N",
+        "title" : "付箋を追加"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストを追加"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "フレームを追加"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "miro.com"
+    ]
+  },
+  {
+    "displayName" : "Canva",
+    "items" : [
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⌘Y",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストを追加"
+      },
+      {
+        "keyLabel" : "⌥⌘N",
+        "title" : "コメントを追加"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⌥⌘]",
+        "title" : "最前面へ移動"
+      },
+      {
+        "keyLabel" : "⌥⌘[",
+        "title" : "最背面へ移動"
+      },
+      {
+        "keyLabel" : "⌥⌘0",
+        "title" : "全体表示に合わせる"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "クイックアクションを開く"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "canva.com"
+    ]
+  },
+  {
+    "displayName" : "ChatGPT",
+    "items" : [
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⌘N",
+        "title" : "新しいチャット"
+      },
+      {
+        "keyLabel" : "⌥⌘N",
+        "title" : "クイックチャット"
+      },
+      {
+        "keyLabel" : "⌥⌘O",
+        "title" : "新規スタンドアロンチャット"
+      },
+      {
+        "keyLabel" : "⌥⌘S",
+        "title" : "サイドチャットを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘A",
+        "title" : "チャットをアーカイブ"
+      },
+      {
+        "keyLabel" : "⇧⌘U",
+        "title" : "未読にする"
+      },
+      {
+        "keyLabel" : "⌥⌘P",
+        "title" : "ピン留めを切り替え"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘[",
+        "title" : "前へ"
+      },
+      {
+        "keyLabel" : "⌘]",
+        "title" : "進む"
+      },
+      {
+        "keyLabel" : "⇧⌘]",
+        "title" : "次のタブ"
+      },
+      {
+        "keyLabel" : "⇧⌘[",
+        "title" : "前のタブ"
+      },
+      {
+        "keyLabel" : "⌥⌘→",
+        "title" : "次のチャット"
+      },
+      {
+        "keyLabel" : "⌥⌘←",
+        "title" : "前のチャット"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "サイドバーを切り替える"
+      },
+      {
+        "keyLabel" : "⌘J",
+        "title" : "下部パネルの表示を切り替え"
+      },
+      {
+        "keyLabel" : "⌥⌘B",
+        "title" : "レビューパネルの表示を切り替え"
+      },
+      {
+        "keyLabel" : "⌘T",
+        "title" : "ブラウザータブを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘T",
+        "title" : "閉じたタブを再度開く"
+      },
+      {
+        "keyLabel" : "⌘O",
+        "title" : "フォルダーを開く"
+      },
+      {
+        "keyLabel" : "⌘,",
+        "title" : "設定"
+      },
+      {
+        "keyLabel" : "⌘W",
+        "title" : "タブを閉じる"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドメニューを開く"
+      },
+      {
+        "keyLabel" : "⌃⇧M",
+        "title" : "モデル選択を開く"
+      },
+      {
+        "keyLabel" : "⌥⌘R",
+        "title" : "チャット名を変更"
+      },
+      {
+        "keyLabel" : "⌘P",
+        "title" : "ファイルを検索…"
+      },
+      {
+        "keyLabel" : "⇧⌘E",
+        "title" : "ファイルツリーを切り替え"
+      },
+      {
+        "keyLabel" : "⌥⇧⌘C",
+        "title" : "会話パスをコピー"
+      },
+      {
+        "keyLabel" : "⇧⌘C",
+        "title" : "作業ディレクトリをコピー"
+      },
+      {
+        "keyLabel" : "⌘R",
+        "title" : "ブラウザーページを再読み込み"
+      },
+      {
+        "keyLabel" : "⇧⌘I",
+        "title" : "カスタム指示を開く"
+      },
+      {
+        "keyLabel" : "⇧⌘L",
+        "title" : "ダーク\/ライトテーマ切り替え"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.openai.chat"
+    ],
+    "matchDomains" : [
+      "chatgpt.com",
+      "chat.openai.com"
+    ]
+  },
+  {
+    "displayName" : "X",
+    "items" : [
+      {
+        "keyLabel" : "N",
+        "title" : "新規ポストを作成"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "いいね"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "返信"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "リポスト"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "ポストを送信"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "全ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次のポストへ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前のポストへ移動"
+      },
+      {
+        "keyLabel" : "G → H",
+        "title" : "ホームタイムラインに移動"
+      },
+      {
+        "keyLabel" : "G → N",
+        "title" : "通知タブに移動"
+      },
+      {
+        "keyLabel" : "G → P",
+        "title" : "プロフィールに移動"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "x.com",
+      "twitter.com"
+    ]
+  },
+  {
+    "displayName" : "Spotify",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "検索を開く"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ヘルプ\/ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "Space",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "次の曲へ"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "前の曲へ"
+      },
+      {
+        "keyLabel" : "⌥⇧B",
+        "title" : "いいね(曲を保存)"
+      },
+      {
+        "keyLabel" : "⌥S",
+        "title" : "シャッフル切り替え"
+      },
+      {
+        "keyLabel" : "⌥R",
+        "title" : "リピート切り替え"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切り替え"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "フィルター(絞り込み検索)"
+      },
+      {
+        "keyLabel" : "⇧⌘L",
+        "title" : "検索へ移動"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.spotify.client"
+    ],
+    "matchDomains" : [
+      "open.spotify.com"
+    ]
+  },
+  {
+    "displayName" : "Airtable",
+    "items" : [
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイックベース切り替え"
+      },
+      {
+        "keyLabel" : "⌘J",
+        "title" : "テーブルを切り替え"
+      },
+      {
+        "keyLabel" : "⇧⌘K",
+        "title" : "ビューを切り替え"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "フィルターメニューを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘S",
+        "title" : "並び替えメニューを開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "検索バーを開く"
+      },
+      {
+        "keyLabel" : "Space",
+        "title" : "レコードを展開"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "セルを編集"
+      },
+      {
+        "keyLabel" : "⇧⏎",
+        "title" : "下にレコードを挿入"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "展開レコードを閉じる"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "airtable.com"
+    ]
+  },
+  {
+    "displayName" : "Jira",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドパレットを開く"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "新規Issueを作成"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "Issueを編集"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "選択したIssueを開く"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "自分にアサイン"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "担当者を割り当て"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "コメントを追加"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次のIssueへ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前のIssueへ移動"
+      },
+      {
+        "keyLabel" : "N",
+        "title" : "次のカラムへ移動"
+      },
+      {
+        "keyLabel" : "P",
+        "title" : "前のカラムへ移動"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "クイック検索"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "atlassian.net"
+    ]
+  },
+  {
+    "displayName" : "Google Meet",
+    "items" : [
+      {
+        "keyLabel" : "⌘D",
+        "title" : "マイクのミュート切替"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "カメラのオン\/オフ切替"
+      },
+      {
+        "keyLabel" : "⌃⌘T",
+        "title" : "画面共有を開始"
+      },
+      {
+        "keyLabel" : "⌃⌘C",
+        "title" : "チャットパネルの切替"
+      },
+      {
+        "keyLabel" : "⌃⌘P",
+        "title" : "参加者パネルの切替"
+      },
+      {
+        "keyLabel" : "⌃⌘H",
+        "title" : "挙手切替"
+      },
+      {
+        "keyLabel" : "⌃⌘K",
+        "title" : "参加者タイルを増やす"
+      },
+      {
+        "keyLabel" : "⌃⌘J",
+        "title" : "参加者タイルを減らす"
+      },
+      {
+        "keyLabel" : "⇧C",
+        "title" : "字幕(キャプション)切替"
+      },
+      {
+        "keyLabel" : "⇧M",
+        "title" : "ピクチャーインピクチャー切替"
+      },
+      {
+        "keyLabel" : "⇧?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "meet.google.com"
+    ]
+  },
+  {
+    "displayName" : "WhatsApp",
+    "items" : [
+      {
+        "keyLabel" : "⌃⌘N",
+        "title" : "新規チャットを作成"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘N",
+        "title" : "新規グループを作成"
+      },
+      {
+        "keyLabel" : "⌃⌘\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘F",
+        "title" : "チャット内を検索"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘U",
+        "title" : "既読にする"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘E",
+        "title" : "アーカイブ"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘P",
+        "title" : "ピン留め"
+      },
+      {
+        "keyLabel" : "⌃⌘⌫",
+        "title" : "チャットを削除"
+      },
+      {
+        "keyLabel" : "⌃⌘Tab",
+        "title" : "次のチャットへ移動"
+      },
+      {
+        "keyLabel" : "⇧⌃⌘Tab",
+        "title" : "前のチャットへ移動"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "チャットを閉じる"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "web.whatsapp.com"
+    ]
+  },
+  {
+    "displayName" : "Finder",
+    "items" : [
+      {
+        "keyLabel" : "⇧⌘.",
+        "title" : "隠しファイルの表示\/非表示"
+      },
+      {
+        "keyLabel" : "⌥⌘V",
+        "title" : "移動として貼り付け(コピー後にこれを押す)"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.apple.finder"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Google Drive",
+    "items" : [
+      {
+        "keyLabel" : "⏎",
+        "title" : "ファイルを開く"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "新しいタブで開く"
+      },
+      {
+        "keyLabel" : "F2",
+        "title" : "名前を変更"
+      },
+      {
+        "keyLabel" : "⌥⌘A",
+        "title" : "共有"
+      },
+      {
+        "keyLabel" : "⌥⌘M",
+        "title" : "フォルダに移動"
+      },
+      {
+        "keyLabel" : "⌥⌘S",
+        "title" : "スター付き\/解除"
+      },
+      {
+        "keyLabel" : "⌃⌘R",
+        "title" : "ショートカットを作成"
+      },
+      {
+        "keyLabel" : "⌫",
+        "title" : "削除"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⌘Y",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "drive.google.com"
+    ]
+  },
+  {
+    "displayName" : "Confluence",
+    "items" : [
+      {
+        "keyLabel" : "⌃⌥Z",
+        "title" : "クイック検索"
+      },
+      {
+        "keyLabel" : "⌥⌘O",
+        "title" : "通知を開く"
+      },
+      {
+        "keyLabel" : "⌥⌘H",
+        "title" : "ホームへ移動"
+      },
+      {
+        "keyLabel" : "⌥⌘V",
+        "title" : "スペース概要へ移動"
+      },
+      {
+        "keyLabel" : "⌃⌥C",
+        "title" : "新規ページを作成"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "編集モードに入る"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "クイック挿入(\/コマンド)"
+      },
+      {
+        "keyLabel" : "⌥⌘C",
+        "title" : "コメントを追加"
+      },
+      {
+        "keyLabel" : "⌥⌘S",
+        "title" : "共有"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "公開(パブリッシュ)"
+      },
+      {
+        "keyLabel" : "⇧⌘8",
+        "title" : "箇条書きリスト"
+      },
+      {
+        "keyLabel" : "⇧⌘7",
+        "title" : "番号付きリスト"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Reddit",
+    "items" : [
+      {
+        "keyLabel" : "J",
+        "title" : "次の投稿へ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前の投稿へ移動"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "高評価(アップボート)"
+      },
+      {
+        "keyLabel" : "Z",
+        "title" : "低評価(ダウンボート)"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "保存"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "返信"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "投稿を開く"
+      },
+      {
+        "keyLabel" : "X",
+        "title" : "本文を展開\/折りたたみ"
+      },
+      {
+        "keyLabel" : "⇧?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "reddit.com"
+    ]
+  },
+  {
+    "displayName" : "LinkedIn",
+    "items" : [
+      {
+        "keyLabel" : "N",
+        "title" : "新規投稿を作成"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "いいね"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "コメント"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "再投稿"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "送信(メッセージ)"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次の項目へ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前の項目へ移動"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "G → H",
+        "title" : "ホームへ移動"
+      },
+      {
+        "keyLabel" : "G → M",
+        "title" : "メッセージングへ移動"
+      },
+      {
+        "keyLabel" : "G → N",
+        "title" : "通知へ移動"
+      },
+      {
+        "keyLabel" : "⇧?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "linkedin.com"
+    ]
+  },
+  {
+    "displayName" : "Twitch",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "フルスクリーン切替"
+      },
+      {
+        "keyLabel" : "⌥T",
+        "title" : "シアターモード切替"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "巻き戻し(VOD再生中)"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "早送り(VOD再生中)"
+      },
+      {
+        "keyLabel" : "⌥X",
+        "title" : "クリップを作成"
+      },
+      {
+        "keyLabel" : ",",
+        "title" : "再生速度を下げる(VOD、一時停止中)"
+      },
+      {
+        "keyLabel" : ".",
+        "title" : "再生速度を上げる(VOD、一時停止中)"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "twitch.tv"
+    ]
+  },
+  {
+    "displayName" : "Excalidraw",
+    "items" : [
+      {
+        "keyLabel" : "V",
+        "title" : "選択ツール"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "長方形を描画"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "楕円を描画"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "矢印を描画"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストツール"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "消しゴムツール"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⇧1",
+        "title" : "全体を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "excalidraw.com"
+    ]
+  },
+  {
+    "displayName" : "Photopea",
+    "items" : [
+      {
+        "keyLabel" : "V",
+        "title" : "移動ツール"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "なげなわ選択ツール"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "切り抜きツール"
+      },
+      {
+        "keyLabel" : "B",
+        "title" : "ブラシツール"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "消しゴムツール"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストツール"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "スポイトツール"
+      },
+      {
+        "keyLabel" : "H",
+        "title" : "手のひらツール(パン)"
+      },
+      {
+        "keyLabel" : "⌘T",
+        "title" : "自由変形"
+      },
+      {
+        "keyLabel" : "⌘J",
+        "title" : "レイヤーを複製"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "選択範囲を解除"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "photopea.com"
+    ]
+  },
+  {
+    "displayName" : "Coda",
+    "items" : [
+      {
+        "keyLabel" : "⌃\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "斜体"
+      },
+      {
+        "keyLabel" : "⇧⌘9",
+        "title" : "箇条書きリスト"
+      },
+      {
+        "keyLabel" : "⇧⌘.",
+        "title" : "引用"
+      },
+      {
+        "keyLabel" : "⇧⌘A",
+        "title" : "テーブルを挿入"
+      },
+      {
+        "keyLabel" : "⌘\\",
+        "title" : "ページ一覧の表示\/非表示"
+      },
+      {
+        "keyLabel" : "⌘.",
+        "title" : "現在のセクションを折りたたむ"
+      },
+      {
+        "keyLabel" : "⌥⌘.",
+        "title" : "すべてのセクションを折りたたむ"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "リンクを挿入"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "coda.io"
+    ]
+  },
+  {
+    "displayName" : "ClickUp",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "検索\/コマンドセンターを開く"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "タスクを作成"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "リマインダーを作成"
+      },
+      {
+        "keyLabel" : "H",
+        "title" : "ホームへ移動"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "Inboxへ移動"
+      },
+      {
+        "keyLabel" : "⌘\\",
+        "title" : "サイドバー表示\/非表示"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "タスク\/ウィンドウを閉じる"
+      },
+      {
+        "keyLabel" : "⇧S",
+        "title" : "ステータスを変更(タスク詳細)"
+      },
+      {
+        "keyLabel" : "⇧A",
+        "title" : "担当者を変更(タスク詳細)"
+      },
+      {
+        "keyLabel" : "⇧D",
+        "title" : "期日を設定(タスク詳細)"
+      },
+      {
+        "keyLabel" : "⇧M",
+        "title" : "コメントを追加(タスク詳細)"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す(Inbox操作)"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "app.clickup.com"
+    ]
+  },
+  {
+    "displayName" : "Loom",
+    "items" : [
+      {
+        "keyLabel" : "K",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "6秒早送り"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "6秒巻き戻し"
+      },
+      {
+        "keyLabel" : ".",
+        "title" : "1秒コマ送り(一時停止中)"
+      },
+      {
+        "keyLabel" : ",",
+        "title" : "1秒コマ戻し(一時停止中)"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面切替"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "⇧⌘L",
+        "title" : "録画の開始\/停止"
+      },
+      {
+        "keyLabel" : "⌥⇧P",
+        "title" : "録画の一時停止\/再開"
+      },
+      {
+        "keyLabel" : "⌥⇧C",
+        "title" : "録画をキャンセル"
+      },
+      {
+        "keyLabel" : "⇧⌘R",
+        "title" : "クイックリスタート"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "loom.com"
+    ]
+  },
+  {
+    "displayName" : "Frame.io",
+    "items" : [
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "プロジェクト内検索"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイック検索"
+      },
+      {
+        "keyLabel" : "⇧F",
+        "title" : "フィードバックを共有"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "コメントを追加"
+      },
+      {
+        "keyLabel" : "⇧R",
+        "title" : "選択したコメントに返信"
+      },
+      {
+        "keyLabel" : "P",
+        "title" : "アノテーションを追加"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "アノテーションを元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "アノテーションをやり直す"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "フルスクリーン切替"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "frame.io"
+    ]
+  },
+  {
+    "displayName" : "Facebook",
+    "items" : [
+      {
+        "keyLabel" : "J",
+        "title" : "次の投稿へ移動"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前の投稿へ移動"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "選択した投稿を全文表示"
+      },
+      {
+        "keyLabel" : "P",
+        "title" : "新規投稿を作成"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "いいね切替"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "コメント"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "シェア"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "添付ファイルを表示"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "Q",
+        "title" : "Messengerの連絡先を検索"
+      },
+      {
+        "keyLabel" : "1",
+        "title" : "ホームへ移動"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "facebook.com"
+    ]
+  },
+  {
+    "displayName" : "Buffer",
+    "items" : [
+      {
+        "keyLabel" : "G → P",
+        "title" : "Publishingタブへ移動"
+      },
+      {
+        "keyLabel" : "G → A",
+        "title" : "Insightsタブへ移動"
+      },
+      {
+        "keyLabel" : "G → C",
+        "title" : "Communityタブへ移動"
+      },
+      {
+        "keyLabel" : "G → I",
+        "title" : "Ideasタブへ移動"
+      },
+      {
+        "keyLabel" : "N → P",
+        "title" : "新規投稿を作成"
+      },
+      {
+        "keyLabel" : "N → I",
+        "title" : "新規アイデアを作成"
+      },
+      {
+        "keyLabel" : "N → C",
+        "title" : "チャンネルを接続"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドバーを開く"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "投稿を予約"
+      },
+      {
+        "keyLabel" : "⇧⏎",
+        "title" : "スレッドを開始(コンポーザー内)"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "buffer.com"
+    ]
+  },
+  {
+    "displayName" : "Outlook",
+    "items" : [
+      {
+        "keyLabel" : "N",
+        "title" : "新規メール作成"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "返信"
+      },
+      {
+        "keyLabel" : "⇧R",
+        "title" : "全員に返信"
+      },
+      {
+        "keyLabel" : "⇧F",
+        "title" : "転送"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "送信"
+      },
+      {
+        "keyLabel" : "⌫",
+        "title" : "削除"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "アーカイブ"
+      },
+      {
+        "keyLabel" : "Q",
+        "title" : "既読にする"
+      },
+      {
+        "keyLabel" : "U",
+        "title" : "未読にする"
+      },
+      {
+        "keyLabel" : "⌥Q",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⇧⌘2",
+        "title" : "予定表へ移動"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "outlook.office.com",
+      "outlook.live.com"
+    ]
+  },
+  {
+    "displayName" : "Zoom",
+    "items" : [
+      {
+        "keyLabel" : "⇧⌘A",
+        "title" : "マイクのミュート切替"
+      },
+      {
+        "keyLabel" : "⇧⌘V",
+        "title" : "ビデオのオン\/オフ切替"
+      },
+      {
+        "keyLabel" : "⇧⌘S",
+        "title" : "画面共有の開始\/停止"
+      },
+      {
+        "keyLabel" : "⇧⌘T",
+        "title" : "画面共有の一時停止\/再開"
+      },
+      {
+        "keyLabel" : "⇧⌘W",
+        "title" : "ビュー切替(スピーカー\/ギャラリー)"
+      },
+      {
+        "keyLabel" : "⌘U",
+        "title" : "参加者パネルの表示\/非表示"
+      },
+      {
+        "keyLabel" : "⇧⌘H",
+        "title" : "チャットパネルの表示\/非表示"
+      },
+      {
+        "keyLabel" : "⌥Y",
+        "title" : "挙手切替"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "フルスクリーン切替"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "招待ウィンドウを開く"
+      }
+    ],
+    "matchBundleIDs" : [
+      "us.zoom.xos"
+    ],
+    "matchDomains" : [
+      "zoom.us"
+    ]
+  },
+  {
+    "displayName" : "Microsoft Teams",
+    "items" : [
+      {
+        "keyLabel" : "⌘E",
+        "title" : "検索を開く"
+      },
+      {
+        "keyLabel" : "⌘N",
+        "title" : "新規チャットを開始"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "特定のチャット\/チャネルに移動"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "現在のチャット内を検索"
+      },
+      {
+        "keyLabel" : "⇧⌘R",
+        "title" : "最後のメッセージに返信"
+      },
+      {
+        "keyLabel" : "⌥⌘R",
+        "title" : "最後のメッセージにリアクション"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "メッセージを送信"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "マイクのミュート切替"
+      },
+      {
+        "keyLabel" : "⇧⌘O",
+        "title" : "カメラのオン\/オフ切替"
+      },
+      {
+        "keyLabel" : "⇧⌘H",
+        "title" : "通話を終了"
+      },
+      {
+        "keyLabel" : "⇧⌘K",
+        "title" : "挙手切替"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "リンクを挿入"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.microsoft.teams2",
+      "com.microsoft.teams"
+    ],
+    "matchDomains" : [
+      "teams.microsoft.com"
+    ]
+  },
+  {
+    "displayName" : "Google Slides",
+    "items" : [
+      {
+        "keyLabel" : "⌘M",
+        "title" : "新しいスライドを追加"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "スライド\/オブジェクトを複製"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⌘Y",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⇧⌘H",
+        "title" : "検索と置換"
+      },
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⇧⌘8",
+        "title" : "箇条書きリスト"
+      },
+      {
+        "keyLabel" : "⌥⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌥⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "プレゼンテーションを開始"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "スピーカーノートを表示(プレゼン中)"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Google Forms",
+    "items" : [
+      {
+        "keyLabel" : "⇧⌘⏎",
+        "title" : "質問を挿入"
+      },
+      {
+        "keyLabel" : "⇧⌘K",
+        "title" : "項目を上に移動"
+      },
+      {
+        "keyLabel" : "⇧⌘J",
+        "title" : "項目を下に移動"
+      },
+      {
+        "keyLabel" : "⇧⌘D",
+        "title" : "項目を複製"
+      },
+      {
+        "keyLabel" : "⌥⇧D",
+        "title" : "項目を削除"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⌘Y",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⇧⌘P",
+        "title" : "プレビュー"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "送信メニューを開く"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "設定メニューを開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Zendesk",
+    "items" : [
+      {
+        "keyLabel" : "⌘B",
+        "title" : "太字"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "斜体"
+      },
+      {
+        "keyLabel" : "⌘U",
+        "title" : "下線"
+      },
+      {
+        "keyLabel" : "⇧⌘8",
+        "title" : "箇条書きリスト"
+      },
+      {
+        "keyLabel" : "⇧⌘7",
+        "title" : "番号付きリスト"
+      },
+      {
+        "keyLabel" : "⇧⌘9",
+        "title" : "引用(ブロッククォート)"
+      },
+      {
+        "keyLabel" : "⇧⌘6",
+        "title" : "コードブロック"
+      },
+      {
+        "keyLabel" : "⇧⌘5",
+        "title" : "インラインコード"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "リンクを挿入"
+      },
+      {
+        "keyLabel" : "⌘M",
+        "title" : "画像を挿入"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "マクロを適用(コメント欄で)"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "zendesk.com"
+    ]
+  },
+  {
+    "displayName" : "Chatwork",
+    "items" : [
+      {
+        "keyLabel" : "↑ または K",
+        "title" : "一つ上のチャットを選択"
+      },
+      {
+        "keyLabel" : "↓ または J",
+        "title" : "一つ下のチャットを選択"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "選択中のチャットを開く"
+      },
+      {
+        "keyLabel" : "⌃←",
+        "title" : "左カラムの開閉"
+      },
+      {
+        "keyLabel" : "⌃→",
+        "title" : "右カラムの開閉"
+      },
+      {
+        "keyLabel" : "G",
+        "title" : "グループチャットを作成"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "メッセージ入力欄のカーソルを解除"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "メッセージ入力欄にカーソル移動"
+      },
+      {
+        "keyLabel" : "Tab",
+        "title" : "送信ボタンにフォーカス"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "タスク入力欄にカーソル移動"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "コンタクトを追加"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "チャット名検索にカーソル移動"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "chatwork.com"
+    ]
+  },
+  {
+    "displayName" : "Backlog",
+    "items" : [
+      {
+        "keyLabel" : "D",
+        "title" : "ダッシュボードへ移動"
+      },
+      {
+        "keyLabel" : "H",
+        "title" : "プロジェクトホームへ移動"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "課題の検索へ移動"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "課題の追加へ移動"
+      },
+      {
+        "keyLabel" : "G",
+        "title" : "ガントチャートへ移動"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "ボードへ移動"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "Wikiへ移動"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "キーワード検索へ移動"
+      },
+      {
+        "keyLabel" : "K または ↑",
+        "title" : "前の課題へ移動"
+      },
+      {
+        "keyLabel" : "J または ↓",
+        "title" : "次の課題へ移動"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "課題詳細の表示\/非表示切替"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "編集ダイアログを表示"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "コメント入力欄を開く"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "backlog.com",
+      "backlog.jp"
+    ]
+  },
+  {
+    "displayName" : "DeepL",
+    "items" : [
+      {
+        "keyLabel" : "⌘C → ⌘C",
+        "title" : "選択テキストをどこからでも翻訳"
+      },
+      {
+        "keyLabel" : "⌃⌘C",
+        "title" : "選択テキストを校正(Write機能)"
+      },
+      {
+        "keyLabel" : "⌘Q",
+        "title" : "アプリを終了"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.linguee.DeepLCopyTranslator",
+      "com.linguee.DeepLStatusBar"
+    ],
+    "matchDomains" : [
+      "deepl.com"
+    ]
+  },
+  {
+    "displayName" : "LINE WORKS",
+    "items" : [
+      {
+        "keyLabel" : "⌘W",
+        "title" : "画面を閉じる"
+      },
+      {
+        "keyLabel" : "⌘,",
+        "title" : "環境設定を開く"
+      },
+      {
+        "keyLabel" : "⌘1",
+        "title" : "アドレス帳タブへ移動"
+      },
+      {
+        "keyLabel" : "⌘2",
+        "title" : "トークタブへ移動"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "トーク内検索"
+      },
+      {
+        "keyLabel" : "⌘O",
+        "title" : "ファイル送信"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "スタンプを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘N",
+        "title" : "ノートを作成"
+      },
+      {
+        "keyLabel" : "⇧⌘C",
+        "title" : "予定を作成"
+      },
+      {
+        "keyLabel" : "⇧⌘D",
+        "title" : "フォルダを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "その他メニュー"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "worksmobile.com"
+    ]
+  },
+  {
+    "displayName" : "LINE",
+    "items" : [
+      {
+        "keyLabel" : "⌘W",
+        "title" : "ウィンドウを閉じる"
+      },
+      {
+        "keyLabel" : "⌘L",
+        "title" : "ロックモードをオン"
+      },
+      {
+        "keyLabel" : "⌘1",
+        "title" : "友だちタブへ移動"
+      },
+      {
+        "keyLabel" : "⌘2",
+        "title" : "トークタブへ移動"
+      },
+      {
+        "keyLabel" : "⌘3",
+        "title" : "友だち追加タブへ移動"
+      },
+      {
+        "keyLabel" : "⌘4",
+        "title" : "タイムラインタブへ移動"
+      },
+      {
+        "keyLabel" : "⌘P",
+        "title" : "画面キャプチャ"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "Keepを開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "トーク内検索"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "スタンプウィンドウを開く"
+      },
+      {
+        "keyLabel" : "⌘O",
+        "title" : "ファイルを送信"
+      },
+      {
+        "keyLabel" : "⇧⏎",
+        "title" : "メッセージを改行"
+      }
+    ],
+    "matchBundleIDs" : [
+      "jp.naver.line.mac"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "monday.com",
+    "items" : [
+      {
+        "keyLabel" : "⌘B",
+        "title" : "ボードのクイック検索を開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "ボード内を検索"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "選択中のセルを編集"
+      },
+      {
+        "keyLabel" : "⌫",
+        "title" : "選択中のセルをクリア"
+      },
+      {
+        "keyLabel" : "⌘C",
+        "title" : "セルをコピー"
+      },
+      {
+        "keyLabel" : "⌘V",
+        "title" : "セルを貼り付け"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "アイテムを開く"
+      },
+      {
+        "keyLabel" : "⇧⏎",
+        "title" : "複数アイテムを範囲選択"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "新しいグループを作成"
+      },
+      {
+        "keyLabel" : "⌃G",
+        "title" : "すべてのグループの折りたたみ切替"
+      },
+      {
+        "keyLabel" : "⇧⌘C",
+        "title" : "新しい列を追加"
+      },
+      {
+        "keyLabel" : "⌘.",
+        "title" : "ナビゲーションパネルの表示\/非表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "monday.com"
+    ]
+  },
+  {
+    "displayName" : "Mattermost",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "チャンネル検索を開く"
+      },
+      {
+        "keyLabel" : "⇧⌘K",
+        "title" : "ダイレクトメッセージを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘A",
+        "title" : "設定を開く"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "最近のメンションを表示"
+      },
+      {
+        "keyLabel" : "⇧⌘L",
+        "title" : "メッセージ入力欄にフォーカス"
+      },
+      {
+        "keyLabel" : "⌘.",
+        "title" : "右サイドバーの表示\/非表示"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "現在のチャンネル内を検索"
+      },
+      {
+        "keyLabel" : "⇧⌘U",
+        "title" : "未読チャンネルを検索"
+      },
+      {
+        "keyLabel" : "⇧⌘I",
+        "title" : "チャンネル情報を表示"
+      },
+      {
+        "keyLabel" : "⌘↑",
+        "title" : "直前の下書き\/コマンドを呼び出す(入力欄が空の時)"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "最後のメッセージを編集(入力欄が空の時)"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+      "Mattermost.Desktop"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Google Keep",
+    "items" : [
+      {
+        "keyLabel" : "C",
+        "title" : "新規メモを作成"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "新規リストを作成"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべてのメモを選択"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "メモをアーカイブ"
+      },
+      {
+        "keyLabel" : "#",
+        "title" : "メモを削除"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "ピン留め切替"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "メモを開く"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "リスト\/グリッド表示切替"
+      },
+      {
+        "keyLabel" : "⎋ または ⌘⏎",
+        "title" : "編集モードを終了"
+      },
+      {
+        "keyLabel" : "⇧⌘8",
+        "title" : "チェックボックス切替"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "keep.google.com"
+    ]
+  },
+  {
+    "displayName" : "Notion Calendar",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドメニューを開く"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "予定を作成"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "今日に移動"
+      },
+      {
+        "keyLabel" : "D",
+        "title" : "日表示"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "週表示"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "月表示"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "予定の共有スニペットを表示"
+      },
+      {
+        "keyLabel" : "P",
+        "title" : "メンバーの空き時間を確認"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "インスタント通話を予定"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "Notionデータベースをインポート"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.cron.electron"
+    ],
+    "matchDomains" : [
+      "calendar.notion.so"
+    ]
+  },
+  {
+    "displayName" : "Whimsical",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドメニューを開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "ファイル内検索"
+      },
+      {
+        "keyLabel" : "⌘J",
+        "title" : "ワークスペース全体を検索"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "]",
+        "title" : "最前面へ移動"
+      },
+      {
+        "keyLabel" : "[",
+        "title" : "最背面へ移動"
+      },
+      {
+        "keyLabel" : "1",
+        "title" : "全体を表示"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストツール"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "whimsical.com"
+    ]
+  },
+  {
+    "displayName" : "DaVinci Resolve",
+    "items" : [
+      {
+        "keyLabel" : "L",
+        "title" : "順再生"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "逆再生"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "停止"
+      },
+      {
+        "keyLabel" : "⇧L",
+        "title" : "早送り再生"
+      },
+      {
+        "keyLabel" : "⇧J",
+        "title" : "早戻し再生"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "イン点を設定"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "アウト点を設定"
+      },
+      {
+        "keyLabel" : "B",
+        "title" : "ブレード編集モード（分割）"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "選択ツール"
+      },
+      {
+        "keyLabel" : "⌘\\",
+        "title" : "プレイヘッド位置でクリップ分割"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "マーカー追加"
+      },
+      {
+        "keyLabel" : "⌘T",
+        "title" : "トランジション追加"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Clipchamp",
+    "items" : [
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "分割"
+      },
+      {
+        "keyLabel" : "Space",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "⌘←",
+        "title" : "先頭にシーク"
+      },
+      {
+        "keyLabel" : "⌘→",
+        "title" : "末尾にシーク"
+      },
+      {
+        "keyLabel" : "⌘=",
+        "title" : "拡大"
+      },
+      {
+        "keyLabel" : "⌘-",
+        "title" : "縮小"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌥⌘3",
+        "title" : "タイムライン表示切替"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "clipchamp.com"
+    ]
+  },
+  {
+    "displayName" : "Kapwing",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "レイヤーを分割"
+      },
+      {
+        "keyLabel" : "H",
+        "title" : "レイヤーを非表示"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべてのレイヤーを選択"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘]",
+        "title" : "前面へ移動"
+      },
+      {
+        "keyLabel" : "⌘[",
+        "title" : "背面へ移動"
+      },
+      {
+        "keyLabel" : "⌥⌘]",
+        "title" : "最前面へ"
+      },
+      {
+        "keyLabel" : "⌥⌘[",
+        "title" : "最背面へ"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "kapwing.com"
+    ]
+  },
+  {
+    "displayName" : "Adobe Express",
+    "items" : [
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      },
+      {
+        "keyLabel" : "⇧C",
+        "title" : "中央揃え"
+      },
+      {
+        "keyLabel" : "⇧M",
+        "title" : "上下中央揃え"
+      },
+      {
+        "keyLabel" : "⌘]",
+        "title" : "前面へ移動"
+      },
+      {
+        "keyLabel" : "⌘[",
+        "title" : "背面へ移動"
+      },
+      {
+        "keyLabel" : "⌥⌘]",
+        "title" : "最前面へ"
+      },
+      {
+        "keyLabel" : "⌥⌘[",
+        "title" : "最背面へ"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "シーンを分割（動画編集）"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "express.adobe.com"
+    ]
+  },
+  {
+    "displayName" : "Photoshop Web版",
+    "items" : [
+      {
+        "keyLabel" : "V",
+        "title" : "移動ツール"
+      },
+      {
+        "keyLabel" : "⌥⌘T",
+        "title" : "自由変形"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "クイック選択ツール"
+      },
+      {
+        "keyLabel" : "⇧⌘I",
+        "title" : "選択範囲を反転"
+      },
+      {
+        "keyLabel" : "⌘J",
+        "title" : "新規レイヤー（コピー）"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "レイヤーをグループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "レイヤーを結合"
+      },
+      {
+        "keyLabel" : "⇧⌘E",
+        "title" : "表示レイヤーを結合"
+      },
+      {
+        "keyLabel" : "⌥⌘]",
+        "title" : "最前面へ"
+      },
+      {
+        "keyLabel" : "⌥⌘[",
+        "title" : "最背面へ"
+      },
+      {
+        "keyLabel" : "⌘,",
+        "title" : "レイヤーを非表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "photoshop.adobe.com"
+    ]
+  },
+  {
+    "displayName" : "Descript",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生\/一時停止"
+      },
+      {
+        "keyLabel" : "⇧Space",
+        "title" : "カーソル位置から再生"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "選択ツール"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "レンジツール"
+      },
+      {
+        "keyLabel" : "B",
+        "title" : "ブレードツール"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "クリップ境界を追加（分割）"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "アクション検索"
+      },
+      {
+        "keyLabel" : "⇧⌘M",
+        "title" : "コメント追加"
+      },
+      {
+        "keyLabel" : "⇧⌘C",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⇧⌘H",
+        "title" : "ハイライト"
+      },
+      {
+        "keyLabel" : "]",
+        "title" : "最前面へ"
+      },
+      {
+        "keyLabel" : "[",
+        "title" : "最背面へ"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.descript.beachcube"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Lightroom Web版",
+    "items" : [
+      {
+        "keyLabel" : "P",
+        "title" : "サイドバー表示切替"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "クロップパネル開閉"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "調整パネル開閉"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "マスキングパネル開閉"
+      },
+      {
+        "keyLabel" : "G",
+        "title" : "グリッド表示に戻る"
+      },
+      {
+        "keyLabel" : "V",
+        "title" : "カラー\/白黒切替"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "ホワイトバランス選択"
+      },
+      {
+        "keyLabel" : "\\",
+        "title" : "元画像\/編集後を切替"
+      },
+      {
+        "keyLabel" : "⌘[",
+        "title" : "左に回転"
+      },
+      {
+        "keyLabel" : "⌘]",
+        "title" : "右に回転"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "選択を解除"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "lightroom.adobe.com"
+    ]
+  },
+  {
+    "displayName" : "Framer",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイックアクションを開く"
+      },
+      {
+        "keyLabel" : "⌥⌘K",
+        "title" : "コンポーネントを作成"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "フレームツール"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "テキストツール"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘P",
+        "title" : "プレビューを開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "内容を検索"
+      },
+      {
+        "keyLabel" : "⌘1",
+        "title" : "全体を表示"
+      },
+      {
+        "keyLabel" : "⌘2",
+        "title" : "選択範囲にズーム"
+      },
+      {
+        "keyLabel" : "⌥⇧2",
+        "title" : "レイヤーパネルの表示切替"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.framer.electron"
+    ],
+    "matchDomains" : [
+      "framer.com"
+    ]
+  },
+  {
+    "displayName" : "Webflow",
+    "items" : [
+      {
+        "keyLabel" : "⇧\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイック検索"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "複製"
+      },
+      {
+        "keyLabel" : "⇧⌘A",
+        "title" : "コンポーネント化"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "追加パネルを開く"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "スタイルパネルを開く"
+      },
+      {
+        "keyLabel" : "Z",
+        "title" : "ナビゲータの表示切替"
+      },
+      {
+        "keyLabel" : "⇧⌘P",
+        "title" : "プレビューモード切替"
+      },
+      {
+        "keyLabel" : "⇧P",
+        "title" : "公開ダイアログを開く"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "ガイドオーバーレイの表示切替"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "⇧⌘Z",
+        "title" : "やり直す"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "webflow.com"
+    ]
+  },
+  {
+    "displayName" : "Basecamp",
+    "items" : [
+      {
+        "keyLabel" : "⌘J または ⌘K",
+        "title" : "ジャンプメニュー(検索)を開く"
+      },
+      {
+        "keyLabel" : "⇧H",
+        "title" : "ホームへ移動"
+      },
+      {
+        "keyLabel" : "⇧T",
+        "title" : "マイタスクへ移動"
+      },
+      {
+        "keyLabel" : "⇧E",
+        "title" : "マイイベントへ移動"
+      },
+      {
+        "keyLabel" : "⇧V",
+        "title" : "Do Today(今日やること)へ移動"
+      },
+      {
+        "keyLabel" : "⇧S",
+        "title" : "Pingサイドバーを開く"
+      },
+      {
+        "keyLabel" : "⇧P",
+        "title" : "新規Pingを作成"
+      },
+      {
+        "keyLabel" : "⇧A",
+        "title" : "自分への割り当て一覧を表示"
+      },
+      {
+        "keyLabel" : "⇧G",
+        "title" : "プロジェクトへ戻る"
+      },
+      {
+        "keyLabel" : "⇧M",
+        "title" : "新規作成(メッセージ\/イベント等)"
+      },
+      {
+        "keyLabel" : "⇧C",
+        "title" : "コメント欄にフォーカス"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "メッセージ\/コメントを送信"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "basecamp.com"
+    ]
+  },
+  {
+    "displayName" : "Superhuman",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "コマンドパレットを開く"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "新規メール作成"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "返信"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "転送"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "送信"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "完了(アーカイブ)"
+      },
+      {
+        "keyLabel" : "⇧E",
+        "title" : "完了を取り消す"
+      },
+      {
+        "keyLabel" : "H",
+        "title" : "スヌーズ"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "スター切替"
+      },
+      {
+        "keyLabel" : "U",
+        "title" : "既読\/未読切替"
+      },
+      {
+        "keyLabel" : "Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.superhuman.electron"
+    ],
+    "matchDomains" : [
+      "mail.superhuman.com"
+    ]
+  },
+  {
+    "displayName" : "Dropbox",
+    "items" : [
+      {
+        "keyLabel" : "↑",
+        "title" : "前のファイル\/フォルダへ移動"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "次のファイル\/フォルダへ移動"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "上の階層へ戻る"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "フォルダを開く"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "ファイルを開く"
+      },
+      {
+        "keyLabel" : "F2",
+        "title" : "名前を変更"
+      },
+      {
+        "keyLabel" : "⌫",
+        "title" : "削除"
+      },
+      {
+        "keyLabel" : "⌘A",
+        "title" : "すべて選択"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "選択を解除"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す(移動\/コピー\/削除など)"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "dropbox.com"
+    ]
+  },
+  {
+    "displayName" : "Cursor",
+    "items" : [
+      {
+        "keyLabel" : "⌘L",
+        "title" : "AIチャット(サイドパネル)を開く"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "インラインエディタを開く"
+      },
+      {
+        "keyLabel" : "⌘N",
+        "title" : "新規チャットを開始"
+      },
+      {
+        "keyLabel" : "⌘T",
+        "title" : "新規チャットタブを作成"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "メッセージを送信 \/ 提案された変更をすべて適用"
+      },
+      {
+        "keyLabel" : "⇧⌘⌫",
+        "title" : "生成を中止"
+      },
+      {
+        "keyLabel" : "⌘⌫",
+        "title" : "提案された変更をすべて拒否"
+      },
+      {
+        "keyLabel" : "⇧⌘L",
+        "title" : "選択中のコードをチャットのコンテキストに追加"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "使用するAIモデルを切り替え"
+      },
+      {
+        "keyLabel" : "⇧⌘P",
+        "title" : "コマンドパレットを開く"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "入力欄からフォーカスを外す"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.todesktop.230313mzl4w4u92"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Gamma",
+    "items" : [
+      {
+        "keyLabel" : "⌘E",
+        "title" : "AIでコンテンツを編集(Agent)"
+      },
+      {
+        "keyLabel" : "⌘Z",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "次のスライド\/要素へ移動"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "前のスライド\/要素へ移動"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "スライド内を下にスクロール"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "スライド内を上にスクロール"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "トグル\/ネストされたスライドの開閉"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "プレゼン中にクイック編集"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "スポットライトモード切替"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "プレゼンテーションを終了"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "テキストサイズ変更メニューを開く"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "gamma.app"
+    ]
+  },
+  {
+    "displayName" : "Netflix",
+    "items" : [
+      {
+        "keyLabel" : "⏎ または Space",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面表示"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "全画面を終了"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "10秒巻き戻し"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "10秒早送り"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "イントロをスキップ"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "netflix.com"
+    ]
+  },
+  {
+    "displayName" : "Google Chat",
+    "items" : [
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⇧⌘K",
+        "title" : "新規チャットを開始"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "スペースを作成"
+      },
+      {
+        "keyLabel" : "⌘O",
+        "title" : "スペースの一覧を閲覧"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "前のメッセージ\/項目へ移動"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "次のメッセージ\/項目へ移動"
+      },
+      {
+        "keyLabel" : "⌘S",
+        "title" : "返信欄にフォーカス"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "メッセージを送信"
+      },
+      {
+        "keyLabel" : "⇧⏎",
+        "title" : "メッセージ内で改行"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "会話\/スペースから抜ける"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "スレッドを開く"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "chat.google.com"
+    ]
+  },
+  {
+    "displayName" : "Google Photos",
+    "items" : [
+      {
+        "keyLabel" : "←",
+        "title" : "前の写真へ移動"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "次の写真へ移動"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "X",
+        "title" : "写真の選択切替"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "選択解除 \/ 編集を終了"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "写真を編集"
+      },
+      {
+        "keyLabel" : "⇧R",
+        "title" : "画像を回転"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "自動補正を適用"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "お気に入りに追加\/解除"
+      },
+      {
+        "keyLabel" : "⇧D",
+        "title" : "ダウンロード"
+      },
+      {
+        "keyLabel" : "⇧A",
+        "title" : "アーカイブ"
+      },
+      {
+        "keyLabel" : "#",
+        "title" : "ゴミ箱へ移動"
+      },
+      {
+        "keyLabel" : "⇧?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "photos.google.com"
+    ]
+  },
+  {
+    "displayName" : "Google Maps",
+    "items" : [
+      {
+        "keyLabel" : "←→↑↓",
+        "title" : "地図を上下左右に移動"
+      },
+      {
+        "keyLabel" : "⇧←→↑↓",
+        "title" : "地図を1マス分だけ移動"
+      },
+      {
+        "keyLabel" : "+",
+        "title" : "拡大"
+      },
+      {
+        "keyLabel" : "-",
+        "title" : "縮小"
+      },
+      {
+        "keyLabel" : "Tab",
+        "title" : "地図にフォーカスを移動"
+      },
+      {
+        "keyLabel" : "1〜7",
+        "title" : "番号付きスポットの詳細を表示"
+      },
+      {
+        "keyLabel" : "9",
+        "title" : "さらに多くのスポットを表示"
+      },
+      {
+        "keyLabel" : "8",
+        "title" : "前のスポット一覧に戻る"
+      },
+      {
+        "keyLabel" : "⌃\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Evernote",
+    "items" : [
+      {
+        "keyLabel" : "⌘N",
+        "title" : "新規ノートを作成"
+      },
+      {
+        "keyLabel" : "⇧⌘N",
+        "title" : "新規ノートブックを作成"
+      },
+      {
+        "keyLabel" : "⌘O",
+        "title" : "ノートを新しいウィンドウで開く"
+      },
+      {
+        "keyLabel" : "⌘F",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⌘S",
+        "title" : "同期"
+      },
+      {
+        "keyLabel" : "⌥⌘T",
+        "title" : "タグを追加"
+      },
+      {
+        "keyLabel" : "⇧⌘C",
+        "title" : "チェックボックスを挿入"
+      },
+      {
+        "keyLabel" : "⇧⌘-",
+        "title" : "水平線を挿入"
+      },
+      {
+        "keyLabel" : "⇧⌘X",
+        "title" : "選択テキストを暗号化"
+      },
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.evernote.Evernote"
+    ],
+    "matchDomains" : [
+      "evernote.com"
+    ]
+  },
+  {
+    "displayName" : "SoundCloud",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "早送り"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "巻き戻し"
+      },
+      {
+        "keyLabel" : "⇧→",
+        "title" : "次のトラックへ"
+      },
+      {
+        "keyLabel" : "⇧←",
+        "title" : "前のトラックへ"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "いいね(再生中のトラック)"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "リポスト"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "⇧S",
+        "title" : "シャッフル切替"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "G → L",
+        "title" : "「いいね」一覧に移動"
+      },
+      {
+        "keyLabel" : "H",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "soundcloud.com"
+    ]
+  },
+  {
+    "displayName" : "Udemy",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面切替"
+      },
+      {
+        "keyLabel" : "⇧←",
+        "title" : "再生速度を下げる"
+      },
+      {
+        "keyLabel" : "⇧→",
+        "title" : "再生速度を上げる"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "5秒巻き戻し"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "5秒早送り"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "udemy.com"
+    ]
+  },
+  {
+    "displayName" : "TikTok",
+    "items" : [
+      {
+        "keyLabel" : "↑",
+        "title" : "前の動画へ移動"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "次の動画へ移動"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "いいね"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "tiktok.com"
+    ]
+  }
+]
