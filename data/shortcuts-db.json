@@ -4307,5 +4307,276 @@
     "matchDomains" : [
       "tiktok.com"
     ]
+  },
+  {
+    "displayName" : "Feedly",
+    "items" : [
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイック検索\/移動"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次の記事"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前の記事"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "記事を開く\/閉じる"
+      },
+      {
+        "keyLabel" : "V",
+        "title" : "元記事を新しいタブで開く"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "既読\/未読切替"
+      },
+      {
+        "keyLabel" : "X",
+        "title" : "既読にして非表示"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "あとで読むに保存"
+      },
+      {
+        "keyLabel" : "T",
+        "title" : "ボードに保存"
+      },
+      {
+        "keyLabel" : "⇧A",
+        "title" : "すべて既読にする"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "更新"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "feedly.com"
+    ]
+  },
+  {
+    "displayName" : "Prime Video",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面切替"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "全画面終了 \/ 再生終了"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "10秒巻き戻し"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "10秒早送り"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "字幕オン\/オフ・言語切替"
+      },
+      {
+        "keyLabel" : "A",
+        "title" : "音声トラック切替"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "primevideo.com"
+    ]
+  },
+  {
+    "displayName" : "Vimeo",
+    "items" : [
+      {
+        "keyLabel" : "K",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "巻き戻し"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "早送り"
+      },
+      {
+        "keyLabel" : "⇧←",
+        "title" : "前のフレーム(一時停止中)"
+      },
+      {
+        "keyLabel" : "⇧→",
+        "title" : "次のフレーム(一時停止中)"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "C",
+        "title" : "字幕オン\/オフ"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面切替"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "あとで見るに追加"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "vimeo.com"
+    ]
+  },
+  {
+    "displayName" : "GitLab",
+    "items" : [
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧表示"
+      },
+      {
+        "keyLabel" : "⇧H",
+        "title" : "ホームに移動"
+      },
+      {
+        "keyLabel" : "⇧P",
+        "title" : "プロジェクト一覧"
+      },
+      {
+        "keyLabel" : "⇧G",
+        "title" : "グループ一覧"
+      },
+      {
+        "keyLabel" : "⇧I",
+        "title" : "Issue一覧"
+      },
+      {
+        "keyLabel" : "⇧M",
+        "title" : "マージリクエスト一覧"
+      },
+      {
+        "keyLabel" : "S または \/",
+        "title" : "検索にフォーカス"
+      },
+      {
+        "keyLabel" : ".",
+        "title" : "Web IDEを開く"
+      },
+      {
+        "keyLabel" : "D",
+        "title" : "GitLab Duo Chatを開く"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "新しいIssueを作成"
+      },
+      {
+        "keyLabel" : "G → O",
+        "title" : "プロジェクト概要に移動"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "gitlab.com"
+    ]
+  },
+  {
+    "displayName" : "HEY",
+    "items" : [
+      {
+        "keyLabel" : "1",
+        "title" : "Imboxに移動"
+      },
+      {
+        "keyLabel" : "2",
+        "title" : "The Feedに移動"
+      },
+      {
+        "keyLabel" : "3",
+        "title" : "Paper Trailに移動"
+      },
+      {
+        "keyLabel" : "4",
+        "title" : "Reply Laterに移動"
+      },
+      {
+        "keyLabel" : "5",
+        "title" : "Set Asideに移動"
+      },
+      {
+        "keyLabel" : "S または \/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "新規メール作成"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "今すぐ返信"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "Reply Laterへ移動"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "転送"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "送信"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "hey.com"
+    ]
   }
 ]
