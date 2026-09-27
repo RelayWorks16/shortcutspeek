@@ -4578,5 +4578,323 @@
     "matchDomains" : [
       "hey.com"
     ]
+  },
+  {
+    "displayName" : "Obsidian",
+    "items" : [
+      {
+        "keyLabel" : "⌘P",
+        "title" : "コマンドパレットを開く"
+      },
+      {
+        "keyLabel" : "⌘O",
+        "title" : "クイックスイッチャー(ノートを開く)"
+      },
+      {
+        "keyLabel" : "⇧⌘F",
+        "title" : "Vault全体を検索"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グラフビューを開く"
+      },
+      {
+        "keyLabel" : "⌘E",
+        "title" : "編集\/閲覧モード切替"
+      },
+      {
+        "keyLabel" : "⌘;",
+        "title" : "プロパティを追加"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "リンクを挿入"
+      },
+      {
+        "keyLabel" : "⌘L",
+        "title" : "チェックリストの状態を切替"
+      },
+      {
+        "keyLabel" : "⌘D",
+        "title" : "段落を削除"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "リンクを新しいタブで開く"
+      },
+      {
+        "keyLabel" : "⇧⌘T",
+        "title" : "閉じたタブを開き直す"
+      },
+      {
+        "keyLabel" : "⌥⌘←",
+        "title" : "戻る"
+      },
+      {
+        "keyLabel" : "⌥⌘→",
+        "title" : "進む"
+      }
+    ],
+    "matchBundleIDs" : [
+      "md.obsidian"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Devin Desktop (旧Windsurf)",
+    "items" : [
+      {
+        "keyLabel" : "⌘L",
+        "title" : "Cascade(AIエージェント)を開く \/ 選択範囲を送る"
+      },
+      {
+        "keyLabel" : "⌘.",
+        "title" : "Cascadeのモード切替"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "Command(インライン編集)を開く"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "Commandの生成結果を適用"
+      },
+      {
+        "keyLabel" : "⌘⌫",
+        "title" : "Commandの生成結果を取り消し"
+      },
+      {
+        "keyLabel" : "⌥⌘V",
+        "title" : "Smart Paste(クリップボードのコードを変換して貼付)"
+      },
+      {
+        "keyLabel" : "Tab",
+        "title" : "補完候補を確定"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "補完候補を破棄"
+      },
+      {
+        "keyLabel" : "⌘→",
+        "title" : "補完候補を単語単位で確定"
+      },
+      {
+        "keyLabel" : "⌥]",
+        "title" : "次の補完候補"
+      },
+      {
+        "keyLabel" : "⌥[",
+        "title" : "前の補完候補"
+      },
+      {
+        "keyLabel" : "⌥\\",
+        "title" : "補完を手動で呼び出す"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.exafunction.windsurf"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Zed",
+    "items" : [
+      {
+        "keyLabel" : "⇧⌘\/",
+        "title" : "エージェントパネルを開く\/フォーカス"
+      },
+      {
+        "keyLabel" : "⌃⏎",
+        "title" : "インラインアシスト(AIでコード編集)"
+      },
+      {
+        "keyLabel" : "⌘N",
+        "title" : "エージェント: 新しいスレッド"
+      },
+      {
+        "keyLabel" : "⌘⏎",
+        "title" : "エージェント: メッセージを送信"
+      },
+      {
+        "keyLabel" : "⌥⌘\/",
+        "title" : "エージェント: モデルを切り替え"
+      },
+      {
+        "keyLabel" : "⇧Tab",
+        "title" : "エージェント: モードを切り替え"
+      },
+      {
+        "keyLabel" : "⌘Y",
+        "title" : "エージェントの変更を採用"
+      },
+      {
+        "keyLabel" : "⌥⌘Z",
+        "title" : "エージェントの変更を却下"
+      },
+      {
+        "keyLabel" : "⌥⇧Y",
+        "title" : "エージェントの変更をすべて採用"
+      },
+      {
+        "keyLabel" : "⌥⇧Z",
+        "title" : "エージェントの変更をすべて却下"
+      },
+      {
+        "keyLabel" : "⌥Tab",
+        "title" : "AI編集予測を表示\/次の候補"
+      },
+      {
+        "keyLabel" : "⌘P",
+        "title" : "ファイル検索"
+      },
+      {
+        "keyLabel" : "⇧⌘P",
+        "title" : "コマンドパレット"
+      }
+    ],
+    "matchBundleIDs" : [
+      "dev.zed.Zed"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Anki",
+    "items" : [
+      {
+        "keyLabel" : "Space または ⏎",
+        "title" : "解答を表示"
+      },
+      {
+        "keyLabel" : "1",
+        "title" : "もう一度(Again)"
+      },
+      {
+        "keyLabel" : "2",
+        "title" : "難しい(Hard)"
+      },
+      {
+        "keyLabel" : "3",
+        "title" : "普通(Good)"
+      },
+      {
+        "keyLabel" : "4",
+        "title" : "簡単(Easy)"
+      },
+      {
+        "keyLabel" : "U",
+        "title" : "元に戻す"
+      },
+      {
+        "keyLabel" : "E",
+        "title" : "カードを編集"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "音声を再生"
+      },
+      {
+        "keyLabel" : "⌘1〜⌘7",
+        "title" : "フラグを付ける(色別)"
+      },
+      {
+        "keyLabel" : "*",
+        "title" : "ノートにマークを付ける"
+      },
+      {
+        "keyLabel" : "-",
+        "title" : "カードを延期(Bury)"
+      },
+      {
+        "keyLabel" : "@",
+        "title" : "カードを保留(Suspend)"
+      },
+      {
+        "keyLabel" : "⌘⌫",
+        "title" : "ノートを削除"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "カード情報を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+      "net.ankiweb.anki",
+      "net.ankiweb.dtop"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Mastodon",
+    "items" : [
+      {
+        "keyLabel" : "⌥N",
+        "title" : "新規投稿"
+      },
+      {
+        "keyLabel" : "N",
+        "title" : "投稿欄にフォーカス"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "返信"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "お気に入り"
+      },
+      {
+        "keyLabel" : "B",
+        "title" : "ブースト"
+      },
+      {
+        "keyLabel" : "Q",
+        "title" : "引用"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "次の投稿"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "前の投稿"
+      },
+      {
+        "keyLabel" : "S または \/",
+        "title" : "検索"
+      },
+      {
+        "keyLabel" : "G → H",
+        "title" : "ホームタイムラインへ移動"
+      },
+      {
+        "keyLabel" : "G → N",
+        "title" : "通知へ移動"
+      },
+      {
+        "keyLabel" : "G → U",
+        "title" : "自分のプロフィールへ移動"
+      },
+      {
+        "keyLabel" : "?",
+        "title" : "ショートカット一覧を表示"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "mastodon.social",
+      "mastodon.online",
+      "mstdn.jp"
+    ]
   }
 ]
