@@ -1,5 +1,92 @@
 [
   {
+    "displayName" : "YouTube Music",
+    "items" : [
+      {
+        "keyLabel" : "Space または ;",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "J または ⇧N",
+        "title" : "次の曲"
+      },
+      {
+        "keyLabel" : "K または ⇧P",
+        "title" : "前の曲"
+      },
+      {
+        "keyLabel" : "L または ⇧→",
+        "title" : "10秒早送り"
+      },
+      {
+        "keyLabel" : "H または ⇧←",
+        "title" : "10秒巻き戻し"
+      },
+      {
+        "keyLabel" : "⇧L",
+        "title" : "1秒早送り"
+      },
+      {
+        "keyLabel" : "⇧H",
+        "title" : "1秒巻き戻し"
+      },
+      {
+        "keyLabel" : "S",
+        "title" : "キューをシャッフル"
+      },
+      {
+        "keyLabel" : "R",
+        "title" : "リピート切替"
+      },
+      {
+        "keyLabel" : "=",
+        "title" : "音量を上げる"
+      },
+      {
+        "keyLabel" : "-",
+        "title" : "音量を下げる"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "ミュート切替"
+      },
+      {
+        "keyLabel" : "Q または ⎋",
+        "title" : "キュー\/拡大プレーヤーの切替"
+      },
+      {
+        "keyLabel" : "F",
+        "title" : "全画面切替"
+      },
+      {
+        "keyLabel" : "+",
+        "title" : "再生中の曲を高く評価"
+      },
+      {
+        "keyLabel" : "_",
+        "title" : "再生中の曲を低く評価"
+      },
+      {
+        "keyLabel" : "G → H",
+        "title" : "ホームへ移動"
+      },
+      {
+        "keyLabel" : "G → L",
+        "title" : "ライブラリへ移動"
+      },
+      {
+        "keyLabel" : "\/",
+        "title" : "検索"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "music.youtube.com"
+    ]
+  },
+  {
     "displayName" : "YouTube",
     "items" : [
       {
@@ -4895,6 +4982,302 @@
       "mastodon.social",
       "mastodon.online",
       "mstdn.jp"
+    ]
+  },
+  {
+    "displayName" : "Claude",
+    "items" : [
+      {
+        "keyLabel" : "⌘\/",
+        "title" : "ショートカット一覧を表示"
+      },
+      {
+        "keyLabel" : "⌘K",
+        "title" : "クイックチャット\/検索"
+      },
+      {
+        "keyLabel" : "⇧⌘K",
+        "title" : "チャットとプロジェクトを検索"
+      },
+      {
+        "keyLabel" : "⇧⌘O",
+        "title" : "新しいチャット(アプリ版は⌘N)"
+      },
+      {
+        "keyLabel" : "⇧⌘I",
+        "title" : "シークレットチャット"
+      },
+      {
+        "keyLabel" : "⌘.",
+        "title" : "サイドバー切替(アプリ版は⌘B)"
+      },
+      {
+        "keyLabel" : "⇧⌘,",
+        "title" : "設定を開く(アプリ版は⌘,)"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "メッセージを送信"
+      },
+      {
+        "keyLabel" : "⇧⏎",
+        "title" : "メッセージ内で改行"
+      },
+      {
+        "keyLabel" : "⇧⌘E",
+        "title" : "拡張思考(Thinking)の切替"
+      },
+      {
+        "keyLabel" : "⇧⌘.",
+        "title" : "モデル選択メニューを開く"
+      },
+      {
+        "keyLabel" : "⌘U",
+        "title" : "ファイル\/写真を添付"
+      },
+      {
+        "keyLabel" : "⎋",
+        "title" : "Claudeの応答を停止"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.anthropic.claudefordesktop"
+    ],
+    "matchDomains" : [
+      "claude.ai"
+    ]
+  },
+  {
+    "displayName" : "CapCut",
+    "items" : [
+      {
+        "keyLabel" : "Space",
+        "title" : "再生 \/ 一時停止"
+      },
+      {
+        "keyLabel" : "J",
+        "title" : "逆再生"
+      },
+      {
+        "keyLabel" : "K",
+        "title" : "停止"
+      },
+      {
+        "keyLabel" : "L",
+        "title" : "順再生"
+      },
+      {
+        "keyLabel" : "←",
+        "title" : "1フレーム戻る"
+      },
+      {
+        "keyLabel" : "→",
+        "title" : "1フレーム進む"
+      },
+      {
+        "keyLabel" : "↑",
+        "title" : "前の編集点へ移動"
+      },
+      {
+        "keyLabel" : "↓",
+        "title" : "次の編集点へ移動"
+      },
+      {
+        "keyLabel" : "Q",
+        "title" : "再生ヘッドより左側を削除"
+      },
+      {
+        "keyLabel" : "W",
+        "title" : "再生ヘッドより右側を削除"
+      },
+      {
+        "keyLabel" : "I",
+        "title" : "イン点を設定"
+      },
+      {
+        "keyLabel" : "O",
+        "title" : "アウト点を設定"
+      },
+      {
+        "keyLabel" : "M",
+        "title" : "マーカーを追加"
+      },
+      {
+        "keyLabel" : "⌥⇧K",
+        "title" : "キーフレームを追加"
+      },
+      {
+        "keyLabel" : "⌘R",
+        "title" : "速度調整を開く"
+      },
+      {
+        "keyLabel" : "⌘G",
+        "title" : "グループ化"
+      },
+      {
+        "keyLabel" : "⇧⌘G",
+        "title" : "グループ解除"
+      },
+      {
+        "keyLabel" : "⌘I",
+        "title" : "メディアを読み込む"
+      },
+      {
+        "keyLabel" : "⇧Z",
+        "title" : "タイムラインを全体表示に合わせる"
+      },
+      {
+        "keyLabel" : "⏎",
+        "title" : "字幕を分割"
+      },
+      {
+        "keyLabel" : "⌃⌘F",
+        "title" : "全画面プレビュー"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.lemon.lvoverseas"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Telegram",
+    "items" : [
+      {
+        "keyLabel" : "⌘F",
+        "title" : "チャットを検索"
+      },
+      {
+        "keyLabel" : "⌘0",
+        "title" : "保存済みメッセージを開く"
+      },
+      {
+        "keyLabel" : "⌘1〜⌘8",
+        "title" : "ピン留めしたチャットへ移動(1〜8番目)"
+      },
+      {
+        "keyLabel" : "⌘9",
+        "title" : "アーカイブを表示"
+      },
+      {
+        "keyLabel" : "⌘J",
+        "title" : "連絡先を表示"
+      },
+      {
+        "keyLabel" : "⌥↑",
+        "title" : "前のチャット"
+      },
+      {
+        "keyLabel" : "⌥↓",
+        "title" : "次のチャット"
+      },
+      {
+        "keyLabel" : "⌘R",
+        "title" : "チャットを既読にする \/ 音声メッセージを録音"
+      },
+      {
+        "keyLabel" : "⌘\\",
+        "title" : "チャットメニューを表示"
+      },
+      {
+        "keyLabel" : "⌘]",
+        "title" : "チャットをプレビュー"
+      },
+      {
+        "keyLabel" : "⌃1",
+        "title" : "「すべてのチャット」フォルダへ移動"
+      },
+      {
+        "keyLabel" : "⌃2〜⌃7",
+        "title" : "フォルダへ移動(1〜6番目)"
+      },
+      {
+        "keyLabel" : "⌃⇧↑",
+        "title" : "前のフォルダ"
+      },
+      {
+        "keyLabel" : "⌃⇧↓",
+        "title" : "次のフォルダ"
+      },
+      {
+        "keyLabel" : "⌘L",
+        "title" : "Telegramをロック"
+      },
+      {
+        "keyLabel" : "⇧⌘T",
+        "title" : "閉じたウィンドウを開き直す"
+      }
+    ],
+    "matchBundleIDs" : [
+      "com.tdesktop.Telegram"
+    ],
+    "matchDomains" : [
+
+    ]
+  },
+  {
+    "displayName" : "Wikipedia",
+    "items" : [
+      {
+        "keyLabel" : "⌃⌥F",
+        "title" : "Wikipedia内を検索"
+      },
+      {
+        "keyLabel" : "⌃⌥Z",
+        "title" : "メインページへ移動"
+      },
+      {
+        "keyLabel" : "⌃⌥X",
+        "title" : "おまかせ表示(ランダムな記事)"
+      },
+      {
+        "keyLabel" : "⌃⌥E",
+        "title" : "このページを編集"
+      },
+      {
+        "keyLabel" : "⌃⌥T",
+        "title" : "ノート(議論)ページを表示"
+      },
+      {
+        "keyLabel" : "⌃⌥C",
+        "title" : "記事本文に戻る"
+      },
+      {
+        "keyLabel" : "⌃⌥H",
+        "title" : "ページの履歴"
+      },
+      {
+        "keyLabel" : "⌃⌥J",
+        "title" : "リンク元の一覧"
+      },
+      {
+        "keyLabel" : "⌃⌥K",
+        "title" : "関連ページの更新状況"
+      },
+      {
+        "keyLabel" : "⌃⌥R",
+        "title" : "最近の更新"
+      },
+      {
+        "keyLabel" : "⌃⌥P",
+        "title" : "印刷用バージョン"
+      },
+      {
+        "keyLabel" : "⌃⌥Q",
+        "title" : "特別ページの一覧"
+      },
+      {
+        "keyLabel" : "⌃⌥G",
+        "title" : "ウィキデータ項目を開く"
+      }
+    ],
+    "matchBundleIDs" : [
+
+    ],
+    "matchDomains" : [
+      "wikipedia.org"
     ]
   }
 ]
