@@ -6147,6 +6147,7 @@
           "legacyTitles" : [
             "太字"
           ],
+          "note" : "⌘2・⌃2でも切り替えられます。",
           "title" : "太字"
         },
         {
@@ -6159,6 +6160,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "⌘4・⌃4でも切り替えられます。",
           "title" : "下線"
         },
         {
@@ -6171,6 +6173,7 @@
           "legacyTitles" : [
             "斜体"
           ],
+          "note" : "⌘3・⌃3でも切り替えられます。",
           "title" : "斜体"
         },
         {
@@ -6183,6 +6186,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "⌘5・⌃5でも切り替えられます。",
           "title" : "取り消し線"
         },
         {
@@ -6291,6 +6295,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "⇧⌘7・⌃⇧7でも適用できます。",
           "title" : "外枠線を適用"
         },
         {
@@ -8009,6 +8014,45 @@
           "aliases" : [
 
           ],
+          "category" : "コメント・提案",
+          "id" : "docs.selected-next-comment",
+          "keyLabel" : "J",
+          "legacyTitles" : [
+
+          ],
+          "note" : "コメントを選択中。単独キーのため、本文編集時には使いません。",
+          "title" : "次のコメント"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "コメント・提案",
+          "id" : "docs.selected-previous-comment",
+          "keyLabel" : "K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "コメントを選択中。単独キーのため、本文編集時には使いません。",
+          "title" : "前のコメント"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "コメント・提案",
+          "id" : "docs.exit-comment",
+          "keyLabel" : "U",
+          "legacyTitles" : [
+
+          ],
+          "note" : "コメントを選択中。単独キーのため、本文編集時には使いません。",
+          "title" : "コメント終了"
+        },
+        {
+          "aliases" : [
+
+          ],
           "category" : "選択・移動",
           "id" : "docs.select-all",
           "keyLabel" : "⌘A",
@@ -8194,6 +8238,279 @@
           ],
           "note" : "⌃⌘を押したままP、Lを順に押します。",
           "title" : "前のリンクに移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.extend-paragraph",
+          "keyLabel" : "⌥⇧↑ \/ ⌥⇧↓",
+          "legacyTitles" : [
+
+          ],
+          "title" : "段落単位で選択拡張"
+        },
+        {
+          "aliases" : [
+            "表内移動"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.table-column-start",
+          "keyLabel" : "⌃⇧⌘T → I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "表内で使用します。⌃⇧⌘を押したままT、Iを順に押します。",
+          "title" : "表の列先頭"
+        },
+        {
+          "aliases" : [
+            "表内移動"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.table-column-end",
+          "keyLabel" : "⌃⇧⌘T → K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "表内で使用します。⌃⇧⌘を押したままT、Kを順に押します。",
+          "title" : "表の列末尾"
+        },
+        {
+          "aliases" : [
+            "表内移動"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.table-row-start",
+          "keyLabel" : "⌃⇧⌘T → J",
+          "legacyTitles" : [
+
+          ],
+          "note" : "表内で使用します。⌃⇧⌘を押したままT、Jを順に押します。",
+          "title" : "表の行先頭"
+        },
+        {
+          "aliases" : [
+            "表内移動"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.table-row-end",
+          "keyLabel" : "⌃⇧⌘T → L",
+          "legacyTitles" : [
+
+          ],
+          "note" : "表内で使用します。⌃⇧⌘を押したままT、Lを順に押します。",
+          "title" : "表の行末尾"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.document-bottom",
+          "keyLabel" : "⌘↓",
+          "legacyTitles" : [
+
+          ],
+          "title" : "文書末尾へ移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.return-document",
+          "keyLabel" : "⎋",
+          "legacyTitles" : [
+
+          ],
+          "note" : "文書外にフォーカス",
+          "title" : "文書にフォーカスを戻す"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.select-list-item",
+          "keyLabel" : "⌃⇧⌘E → I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "リスト項目内で使用。⌃⇧⌘を押したままE、Iを順に押します。",
+          "title" : "現在のリスト項目を選択"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.select-list-level",
+          "keyLabel" : "⌃⇧⌘E → O",
+          "legacyTitles" : [
+
+          ],
+          "note" : "リスト項目内で使用。⌃⇧⌘を押したままE、Oを順に押します。",
+          "title" : "同じ階層のリスト項目をすべて選択"
+        },
+        {
+          "aliases" : [
+            "メディア",
+            "図形描画"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.next-media",
+          "keyLabel" : "⌃⌘N → G",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままN、Gを順に押します。",
+          "title" : "次の画像・図形に移動"
+        },
+        {
+          "aliases" : [
+            "メディア",
+            "図形描画"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.previous-media",
+          "keyLabel" : "⌃⌘P → G",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままP、Gを順に押します。",
+          "title" : "前の画像・図形に移動"
+        },
+        {
+          "aliases" : [
+            "箇条書き"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.next-list-item",
+          "keyLabel" : "⌃⌘N → I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在のリスト内で使用。⌃⌘を押したままN、Iを順に押します。",
+          "title" : "次のリスト内の項目に移動"
+        },
+        {
+          "aliases" : [
+            "箇条書き"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.previous-list-item",
+          "keyLabel" : "⌃⌘P → I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在のリスト内で使用。⌃⌘を押したままP、Iを順に押します。",
+          "title" : "前のリスト内の項目に移動"
+        },
+        {
+          "aliases" : [
+            "しおり"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.next-bookmark",
+          "keyLabel" : "⌃⌘N → B",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままN、Bを順に押します。",
+          "title" : "次のブックマークに移動"
+        },
+        {
+          "aliases" : [
+            "しおり"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.previous-bookmark",
+          "keyLabel" : "⌃⌘P → B",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままP、Bを順に押します。",
+          "title" : "前のブックマークに移動"
+        },
+        {
+          "aliases" : [
+            "書式の違い"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.next-formatting-change",
+          "keyLabel" : "⌃⌘N → W",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままN、Wを順に押します。",
+          "title" : "次の書式変更箇所に移動"
+        },
+        {
+          "aliases" : [
+            "書式の違い"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.previous-formatting-change",
+          "keyLabel" : "⌃⌘P → W",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままP、Wを順に押します。",
+          "title" : "前の書式変更箇所に移動"
+        },
+        {
+          "aliases" : [
+            "ページ上部"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.insert-or-move-header",
+          "keyLabel" : "⌃⌘O → H",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ形式の文書で使用。⌃⌘を押したままO、Hを順に押します。",
+          "title" : "ヘッダーを挿入・移動"
+        },
+        {
+          "aliases" : [
+            "ページ下部"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.insert-or-move-footer",
+          "keyLabel" : "⌃⌘O → F",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ形式の文書で使用。⌃⌘を押したままO、Fを順に押します。",
+          "title" : "フッターを挿入・移動"
+        },
+        {
+          "aliases" : [
+            "変更箇所"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.next-edit",
+          "keyLabel" : "⌃⌘N → R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "変更履歴または新しい変更を表示中。⌃⌘を押したままN、Rを順に押します。",
+          "title" : "次の編集箇所に移動"
+        },
+        {
+          "aliases" : [
+            "変更箇所"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.previous-edit",
+          "keyLabel" : "⌃⌘P → R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "変更履歴または新しい変更を表示中。⌃⌘を押したままP、Rを順に押します。",
+          "title" : "前の編集箇所に移動"
         },
         {
           "aliases" : [
@@ -8558,6 +8875,471 @@
           ],
           "note" : "チェックリストの項目にカーソルがある場合。",
           "title" : "チェックボックスを切り替える"
+        },
+        {
+          "aliases" : [
+            "右クリックメニュー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.context-menu",
+          "keyLabel" : "⇧⌘\\ \/ ⇧F10",
+          "legacyTitles" : [
+
+          ],
+          "title" : "コンテキストメニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.file-menu",
+          "keyLabel" : "⌃⌥F",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "ファイルメニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.edit-menu",
+          "keyLabel" : "⌃⌥E",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "編集メニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.view-menu",
+          "keyLabel" : "⌃⌥V",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "表示メニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.insert-menu",
+          "keyLabel" : "⌃⌥I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "挿入メニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.format-menu",
+          "keyLabel" : "⌃⌥O",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "表示形式メニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.tools-menu",
+          "keyLabel" : "⌃⌥T",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "ツールメニューを開く"
+        },
+        {
+          "aliases" : [
+            "メニューバー"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.help-menu",
+          "keyLabel" : "⌃⌥H",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メニューが表示されている場合。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "ヘルプメニューを開く"
+        },
+        {
+          "aliases" : [
+            "アクセシビリティ"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.accessibility-menu",
+          "keyLabel" : "⌃⌥A",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効でメニューを表示中。VoiceOver使用中は先にVoiceOver＋Tabでキーを通します。",
+          "title" : "ユーザー補助機能メニューを開く"
+        },
+        {
+          "aliases" : [
+            "入力言語"
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.input-tools-menu",
+          "keyLabel" : "⌥⇧⌘K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "非ラテン文字の言語の文書で利用できます。",
+          "title" : "入力ツールメニューを開く"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "ツール・表示",
+          "id" : "docs.toggle-input-controls",
+          "keyLabel" : "⇧⌘K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "非ラテン文字の言語の文書で利用できます。",
+          "title" : "入力ツールを切り替える"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-alt-text",
+          "keyLabel" : "⌥⌘Y",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "代替テキスト"
+        },
+        {
+          "aliases" : [
+            "画像サイズ"
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-grow",
+          "keyLabel" : "⌃⌘K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "画像を拡大"
+        },
+        {
+          "aliases" : [
+            "画像サイズ"
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-grow-horizontal",
+          "keyLabel" : "⌃⌘B",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "横方向に拡大"
+        },
+        {
+          "aliases" : [
+            "画像サイズ"
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-grow-vertical",
+          "keyLabel" : "⌃⌘I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "縦方向に拡大"
+        },
+        {
+          "aliases" : [
+            "画像サイズ"
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-shrink",
+          "keyLabel" : "⌃⌘J",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "画像を縮小"
+        },
+        {
+          "aliases" : [
+            "画像サイズ"
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-shrink-horizontal",
+          "keyLabel" : "⌃⌘W",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "横方向に縮小"
+        },
+        {
+          "aliases" : [
+            "画像サイズ"
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-shrink-vertical",
+          "keyLabel" : "⌃⌘Q",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "縦方向に縮小"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-rotate-clockwise",
+          "keyLabel" : "⌥→",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "時計回り15度回転"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-rotate-counterclockwise",
+          "keyLabel" : "⌥←",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "反時計回り15度回転"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-rotate-clockwise-fine",
+          "keyLabel" : "⌥⇧→",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "時計回り1度回転"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.image-rotate-counterclockwise-fine",
+          "keyLabel" : "⌥⇧←",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像または図形を選択中。",
+          "title" : "反時計回り1度回転"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "画像・図形",
+          "id" : "docs.close-drawing",
+          "keyLabel" : "⌘⎋",
+          "legacyTitles" : [
+
+          ],
+          "note" : "図形描画エディタを表示中。公式には⇧⎋も掲載。",
+          "title" : "描画エディタ終了"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.screen-reader",
+          "keyLabel" : "⌥⌘Z",
+          "legacyTitles" : [
+
+          ],
+          "title" : "スクリーンリーダーサポート"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.braille",
+          "keyLabel" : "⌥⌘H",
+          "legacyTitles" : [
+
+          ],
+          "title" : "点字サポート"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-selection",
+          "keyLabel" : "⌃⌘A → X",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。テキスト選択中に⌃⌘を押したままA、Xを順に押します。",
+          "title" : "選択範囲を読み上げる"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-from-cursor",
+          "keyLabel" : "⌃⌘A → R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。⌃⌘を押したままA、Rを順に押します。",
+          "title" : "カーソル位置から読み上げる"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.announce-cursor-formatting",
+          "keyLabel" : "⌃⌘A → F",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。⌃⌘を押したままA、Fを順に押します。",
+          "title" : "カーソル位置の書式を読み上げる"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-table-headers",
+          "keyLabel" : "⌃⇧⌘T → H",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。表内で⌃⇧⌘を押したままT、Hを順に押します。",
+          "title" : "表の行・列見出しを読み上げる"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-table-cell-location",
+          "keyLabel" : "⌃⇧⌘T → N",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。表内で⌃⇧⌘を押したままT、Nを順に押します。",
+          "title" : "表のセル位置を読み上げる"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-table-row-header",
+          "keyLabel" : "⌃⇧⌘T → R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。表内で⌃⇧⌘を押したままT、Rを順に押します。",
+          "title" : "表の行見出しを読み上げる"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-table-column-header",
+          "keyLabel" : "⌃⇧⌘T → C",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。表内で⌃⇧⌘を押したままT、Cを順に押します。",
+          "title" : "表の列見出しを読み上げる"
+        },
+        {
+          "aliases" : [
+            "共同編集"
+          ],
+          "category" : "支援技術",
+          "id" : "docs.show-live-edits",
+          "keyLabel" : "⌥⇧⌘R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。",
+          "title" : "ライブ編集を表示"
+        },
+        {
+          "aliases" : [
+            "音声"
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-comment",
+          "keyLabel" : "⌃⌘A → C",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。⌃⌘を押したままA、Cを順に押します。",
+          "title" : "コメントを読み上げる"
+        },
+        {
+          "aliases" : [
+            "コメントのアンカー"
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-comment-anchor",
+          "keyLabel" : "⌃⌘A → A",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効な場合。⌃⌘を押したままA、Aを順に押します。",
+          "title" : "コメントの対象箇所を読み上げる"
+        },
+        {
+          "aliases" : [
+            "音声"
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-selection-formatting",
+          "keyLabel" : "⌃⌘A → S",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートが有効で、テキストを選択中。⌃⌘を押したままA、Sを順に押します。",
+          "title" : "選択範囲の書式を読み上げる"
         }
       ],
       "matchBundleIDs" : [
@@ -11649,6 +12431,46 @@
       "items" : [
         {
           "aliases" : [
+            "改行"
+          ],
+          "category" : "文字・コメント",
+          "id" : "notion.new-line",
+          "keyLabel" : "Return",
+          "legacyTitles" : [
+
+          ],
+          "note" : "入力中。",
+          "title" : "テキストの行を挿入"
+        },
+        {
+          "aliases" : [
+            "改行"
+          ],
+          "category" : "文字・コメント",
+          "id" : "notion.line-break",
+          "keyLabel" : "⇧Return",
+          "legacyTitles" : [
+
+          ],
+          "note" : "テキストブロック入力中。",
+          "title" : "ブロック内で改行"
+        },
+        {
+          "aliases" : [
+            "画像",
+            "フルスクリーン"
+          ],
+          "category" : "ブロック編集",
+          "id" : "notion.image-fullscreen",
+          "keyLabel" : "Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "画像を選択中、または画像の全画面表示中。",
+          "title" : "画像の全画面表示を開閉"
+        },
+        {
+          "aliases" : [
             "検索",
             "最近見たページ"
           ],
@@ -12160,7 +12982,7 @@
           "legacyTitles" : [
 
           ],
-          "note" : "テキストブロックの編集、または子ページを開きます。",
+          "note" : "ブロックを選択中。テキストブロックの編集、または子ページを開きます。",
           "title" : "選択したブロックを編集"
         },
         {
@@ -13703,6 +14525,20 @@
         },
         {
           "aliases" : [
+            "タスク",
+            "予定の種類"
+          ],
+          "category" : "予定",
+          "id" : "google-calendar.choose-event-type",
+          "keyLabel" : "⇧C",
+          "legacyTitles" : [
+
+          ],
+          "note" : "カレンダー画面で文字入力欄の外にフォーカスがある場合。",
+          "title" : "種類を選んで予定を作成"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "サイドパネル",
@@ -13740,6 +14576,241 @@
           ],
           "note" : "ショートカットを有効にした状態で使用します。 記号キーはキーボード配列により位置が異なる場合があります。",
           "title" : "キーボード ショートカット一覧を表示"
+        },
+        {
+          "aliases" : [
+            "ショートカット一覧"
+          ],
+          "category" : "ヘルプ",
+          "id" : "google-calendar.shortcuts-help-command",
+          "keyLabel" : "⌘\/",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Macのスクリーンリーダー向け公式資料に記載された別割り当てです。",
+          "title" : "キーボードショートカット一覧を開く"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-title",
+          "keyLabel" : "⌥1",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定のタイトルを読み上げ"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-date-time",
+          "keyLabel" : "⌥2",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定の日時を読み上げ"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-guests",
+          "keyLabel" : "⌥3",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定のゲストを読み上げ"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-rooms-location",
+          "keyLabel" : "⌥4",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定の会議室と場所を読み上げ"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-description",
+          "keyLabel" : "⌥5",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定の説明を読み上げ"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-attachments",
+          "keyLabel" : "⌥6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定の添付ファイルを読み上げ"
+        },
+        {
+          "aliases" : [
+            "予定情報"
+          ],
+          "category" : "予定の読み上げ",
+          "id" : "google-calendar.read-event-notifications",
+          "keyLabel" : "⌥7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーを使用し、予定を選んでEnterで開いた状態。入力フォーカスを移さず確認します。",
+          "title" : "予定の通知を読み上げ"
+        },
+        {
+          "aliases" : [
+            "日付"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.schedule-days",
+          "keyLabel" : "← \/ →",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定リスト表示の予定領域にフォーカスがある場合。",
+          "title" : "予定リストの日付間を移動"
+        },
+        {
+          "aliases" : [
+            "予定リスト"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.schedule-events",
+          "keyLabel" : "↑ \/ ↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定リスト表示の予定領域にフォーカスがある場合。",
+          "title" : "同じ日の予定間を移動"
+        },
+        {
+          "aliases" : [
+            "終日"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.day-sections",
+          "keyLabel" : "↑ \/ ↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "日表示または週表示の予定領域。日表示ではその日に予定が必要です。",
+          "title" : "終日の予定と時間指定の予定を切り替える"
+        },
+        {
+          "aliases" : [
+            "予定"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.day-events",
+          "keyLabel" : "Tab",
+          "legacyTitles" : [
+
+          ],
+          "note" : "日表示または週表示の予定領域。日表示ではその日に予定が必要です。",
+          "title" : "終日または時間指定の領域内で予定を移動"
+        },
+        {
+          "aliases" : [
+            "週"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.month-weeks",
+          "keyLabel" : "↑ \/ ↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "月表示の予定領域にフォーカスがある場合。",
+          "title" : "月表示の週の間を移動"
+        },
+        {
+          "aliases" : [
+            "月"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.month-events",
+          "keyLabel" : "Tab",
+          "legacyTitles" : [
+
+          ],
+          "note" : "月表示の予定領域。表示されない予定は「その他」ボタンからEnterまたはSpaceで開きます。",
+          "title" : "月表示の予定間を移動"
+        },
+        {
+          "aliases" : [
+            "年間"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.year-day-events",
+          "keyLabel" : "Enter",
+          "legacyTitles" : [
+
+          ],
+          "note" : "年表示で日付にフォーカスがある場合。",
+          "title" : "その日の予定一覧を開く"
+        },
+        {
+          "aliases" : [
+            "年間"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.year-month",
+          "keyLabel" : "Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "年表示の予定領域にフォーカスがある場合。",
+          "title" : "年表示から月表示へ切り替える"
+        },
+        {
+          "aliases" : [
+            "日付"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.grid-days",
+          "keyLabel" : "← \/ →",
+          "legacyTitles" : [
+
+          ],
+          "note" : "週・月・年表示の予定領域にフォーカスがある場合。",
+          "title" : "前後の日付へ移動"
+        },
+        {
+          "aliases" : [
+            "年間",
+            "曜日"
+          ],
+          "category" : "画面内の移動",
+          "id" : "google-calendar.year-weeks",
+          "keyLabel" : "↑ \/ ↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "年表示の予定領域にフォーカスがある場合。",
+          "title" : "前後の週の同じ曜日へ移動"
         }
       ],
       "matchBundleIDs" : [
@@ -14004,6 +15075,19 @@
         },
         {
           "aliases" : [
+
+          ],
+          "category" : "基本操作",
+          "id" : "slack.resize-sidebar",
+          "keyLabel" : "← \/ →",
+          "legacyTitles" : [
+
+          ],
+          "note" : "左サイドバーにフォーカスがある場合。デスクトップ版ではF6で移動できます。",
+          "title" : "左サイドバーの幅変更"
+        },
+        {
+          "aliases" : [
             "会話へ移動"
           ],
           "category" : "会話・画面移動",
@@ -14197,6 +15281,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "デスクトップ版のキーです。Web版Macでは⌘F6。",
           "title" : "次のセクションへフォーカス"
         },
         {
@@ -14209,7 +15294,34 @@
           "legacyTitles" : [
 
           ],
+          "note" : "デスクトップ版のキーです。Web版Macでは⇧⌘F6。",
           "title" : "前のセクションへフォーカス"
+        },
+        {
+          "aliases" : [
+            "チェック"
+          ],
+          "category" : "会話・画面移動",
+          "id" : "slack.toggle-checkbox",
+          "keyLabel" : "Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "チェックボックスにフォーカスがある場合。",
+          "title" : "チェックボックスを選択・解除"
+        },
+        {
+          "aliases" : [
+            "新しいウィンドウ"
+          ],
+          "category" : "会話・画面移動",
+          "id" : "slack.conversation-new-window",
+          "keyLabel" : "⌘Return",
+          "legacyTitles" : [
+
+          ],
+          "note" : "デスクトップ版で、サイドバーのチャンネル名またはDM名にフォーカスがある場合。",
+          "title" : "会話を別ウィンドウで開く"
         },
         {
           "aliases" : [
@@ -14221,6 +15333,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "メッセージを入力中ではなく、メニューも開いていない場合。",
           "title" : "現在の会話をすべて既読にする"
         },
         {
@@ -14507,6 +15620,138 @@
         },
         {
           "aliases" : [
+            "日付"
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.previous-day-messages",
+          "keyLabel" : "Fn⇧↑",
+          "legacyTitles" : [
+
+          ],
+          "note" : "空の入力欄で↑を押し、メッセージ間を移動している場合。",
+          "title" : "前日のメッセージ先頭へ移動"
+        },
+        {
+          "aliases" : [
+            "日付"
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.next-day-messages",
+          "keyLabel" : "Fn⇧↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "空の入力欄で↑を押し、メッセージ間を移動している場合。",
+          "title" : "翌日のメッセージ先頭へ移動"
+        },
+        {
+          "aliases" : [
+            "添付ファイル"
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.message-links",
+          "keyLabel" : "Tab",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メッセージにフォーカスがある場合。",
+          "title" : "メッセージ内のリンク・添付へ移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.oldest-message",
+          "keyLabel" : "Home",
+          "legacyTitles" : [
+
+          ],
+          "note" : "空の入力欄で↑を押し、メッセージ間を移動している場合。",
+          "title" : "最も古いメッセージへ移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.newest-message",
+          "keyLabel" : "End",
+          "legacyTitles" : [
+
+          ],
+          "note" : "空の入力欄で↑を押し、メッセージ間を移動している場合。",
+          "title" : "最新のメッセージへ移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.message-page",
+          "keyLabel" : "Page Up \/ Page Down",
+          "legacyTitles" : [
+
+          ],
+          "note" : "空の入力欄で↑を押し、メッセージ間を移動している場合。",
+          "title" : "メッセージをページ単位で上下へ移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.scroll-messages",
+          "keyLabel" : "Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "空の入力欄で↑を押し、メッセージ間を移動している場合。",
+          "title" : "メッセージをスクロール"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.leave-thread",
+          "keyLabel" : "←",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スレッド内をキーボードで移動している場合。",
+          "title" : "スレッドからメインの会話へ戻る"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.message-actions",
+          "keyLabel" : "Tab+M",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メッセージにフォーカスがあり、macOSのフルキーボードアクセスが有効な場合。TabとMを組み合わせます。",
+          "title" : "メッセージの操作メニューを開く"
+        },
+        {
+          "aliases" : [
+            "スラッシュ",
+            "ワークフロー",
+            "アプリ"
+          ],
+          "category" : "メッセージ操作",
+          "id" : "slack.shortcuts-menu",
+          "keyLabel" : "\/",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メッセージ入力欄で先頭に入力します。候補を選び、必要な引数を入力してから実行します。",
+          "title" : "ショートカットメニューを開く"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "メッセージ書式",
@@ -14665,6 +15910,45 @@
           "aliases" : [
 
           ],
+          "category" : "メッセージ書式",
+          "id" : "slack.select-line-start",
+          "keyLabel" : "⇧↑",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メッセージ入力欄。",
+          "title" : "行頭まで選択"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ書式",
+          "id" : "slack.select-line-end",
+          "keyLabel" : "⇧↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メッセージ入力欄。",
+          "title" : "行末まで選択"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "メッセージ書式",
+          "id" : "slack.underline",
+          "keyLabel" : "⌘U",
+          "legacyTitles" : [
+
+          ],
+          "note" : "メッセージ入力欄の選択テキスト。",
+          "title" : "下線"
+        },
+        {
+          "aliases" : [
+
+          ],
           "category" : "Canvas",
           "id" : "slack.canvas-comment-thread",
           "keyLabel" : "⌥⌘T",
@@ -14764,6 +16048,222 @@
           ],
           "note" : "Canvasの書式付きリスト内で使います。",
           "title" : "Canvasのリスト項目を下へ移動"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-paragraph",
+          "keyLabel" : "⌥⌘0",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "段落にする"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-heading-1",
+          "keyLabel" : "⌥⌘1",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "大見出し"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-heading-2",
+          "keyLabel" : "⌥⌘2",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "中見出し"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-heading-3",
+          "keyLabel" : "⌥⌘3",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "小見出し"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-checklist",
+          "keyLabel" : "⇧⌘0",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "チェックリスト"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-bulleted-list",
+          "keyLabel" : "⇧⌘8",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "箇条書き"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-numbered-list",
+          "keyLabel" : "⇧⌘7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Canvasの選択テキスト。",
+          "title" : "番号付きリスト"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-toggle-style",
+          "keyLabel" : "⌃`",
+          "legacyTitles" : [
+
+          ],
+          "title" : "見出し・リスト形式切り替え"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-find",
+          "keyLabel" : "⌘F",
+          "legacyTitles" : [
+
+          ],
+          "title" : "検索"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-find-next",
+          "keyLabel" : "⌘G",
+          "legacyTitles" : [
+
+          ],
+          "title" : "次を検索"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-find-previous",
+          "keyLabel" : "⇧⌘G",
+          "legacyTitles" : [
+
+          ],
+          "title" : "前を検索"
+        },
+        {
+          "aliases" : [
+            "キャンバス"
+          ],
+          "category" : "Canvas",
+          "id" : "slack.canvas-undo",
+          "keyLabel" : "⌘Z",
+          "legacyTitles" : [
+
+          ],
+          "title" : "元に戻す"
+        },
+        {
+          "aliases" : [
+            "Activity"
+          ],
+          "category" : "アクティビティ",
+          "id" : "slack.activity-mark-read",
+          "keyLabel" : "R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アクティビティ画面で項目にフォーカスがある場合。",
+          "title" : "アクティビティの項目を既読にする"
+        },
+        {
+          "aliases" : [
+            "Activity"
+          ],
+          "category" : "アクティビティ",
+          "id" : "slack.activity-clear",
+          "keyLabel" : "C",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アクティビティ画面で項目にフォーカスがある場合。",
+          "title" : "アクティビティの項目をクリア"
+        },
+        {
+          "aliases" : [
+            "Activity"
+          ],
+          "category" : "アクティビティ",
+          "id" : "slack.activity-select",
+          "keyLabel" : "X",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アクティビティ画面で項目にフォーカスがある場合。",
+          "title" : "アクティビティの項目を選択・解除"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "アクティビティ",
+          "id" : "slack.activity-move",
+          "keyLabel" : "↑ \/ ↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アクティビティ画面で項目を操作する場合。",
+          "title" : "アクティビティの項目間を移動"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "category" : "アクティビティ",
+          "id" : "slack.activity-reply",
+          "keyLabel" : "Return",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アクティビティ画面で項目を操作する場合。",
+          "title" : "アクティビティのメッセージに返信"
         }
       ],
       "matchBundleIDs" : [
@@ -16018,6 +17518,32 @@
         },
         {
           "aliases" : [
+            "画面領域"
+          ],
+          "category" : "フォーカス移動",
+          "id" : "google-drive.next-region",
+          "keyLabel" : "⌘F6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "DriveをWebアプリとして操作する場合。移動した領域内へ入るにはTabを押します。",
+          "title" : "次の領域へ移動"
+        },
+        {
+          "aliases" : [
+            "画面領域"
+          ],
+          "category" : "フォーカス移動",
+          "id" : "google-drive.previous-region",
+          "keyLabel" : "⇧⌘F6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "DriveをWebアプリとして操作する場合。移動した領域内へ入るにはTabを押します。",
+          "title" : "前の領域へ移動"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "アイテム操作",
@@ -16500,6 +18026,58 @@
           ],
           "note" : "プレビューを開いている場合。 記号キーはキーボード配列により位置が異なる場合があります。",
           "title" : "縮小"
+        },
+        {
+          "aliases" : [
+            "動画プレーヤー"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-play-pause",
+          "keyLabel" : "K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画を再生・一時停止"
+        },
+        {
+          "aliases" : [
+            "動画プレーヤー"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-mute",
+          "keyLabel" : "M",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "消音・消音解除"
+        },
+        {
+          "aliases" : [
+            "動画プレーヤー"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-captions",
+          "keyLabel" : "C",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "字幕を表示・非表示"
+        },
+        {
+          "aliases" : [
+            "動画プレーヤー"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-fullscreen",
+          "keyLabel" : "F",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画を全画面表示"
         }
       ],
       "matchBundleIDs" : [
@@ -18516,6 +20094,312 @@
         },
         {
           "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-1-desktop",
+          "keyLabel" : "⌘1",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの1番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-1-web",
+          "keyLabel" : "⌃⇧1",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの1番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-2-desktop",
+          "keyLabel" : "⌘2",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの2番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-2-web",
+          "keyLabel" : "⌃⇧2",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの2番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-3-desktop",
+          "keyLabel" : "⌘3",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの3番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-3-web",
+          "keyLabel" : "⌃⇧3",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの3番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-4-desktop",
+          "keyLabel" : "⌘4",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの4番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-4-web",
+          "keyLabel" : "⌃⇧4",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの4番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-5-desktop",
+          "keyLabel" : "⌘5",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの5番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-5-web",
+          "keyLabel" : "⌃⇧5",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの5番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-6-desktop",
+          "keyLabel" : "⌘6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの6番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-6-web",
+          "keyLabel" : "⌃⇧6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの6番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-7-desktop",
+          "keyLabel" : "⌘7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの7番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-7-web",
+          "keyLabel" : "⌃⇧7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの7番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-8-desktop",
+          "keyLabel" : "⌘8",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの8番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-8-web",
+          "keyLabel" : "⌃⇧8",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの8番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Mac"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-9-desktop",
+          "keyLabel" : "⌘9",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "アプリバーの9番目を開く"
+        },
+        {
+          "aliases" : [
+            "アプリ切り替え",
+            "Web"
+          ],
+          "category" : "アプリバー",
+          "id" : "microsoft-teams.app-bar-9-web",
+          "keyLabel" : "⌃⇧9",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の並び順に対応します。標準キー設定で使用。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "アプリバーの9番目を開く"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "予定表",
@@ -19399,6 +21283,20 @@
         },
         {
           "aliases" : [
+            "音声入力",
+            "Ramble"
+          ],
+          "category" : "基本操作",
+          "id" : "todoist.ramble",
+          "keyLabel" : "⇧Q",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Todoist内でRambleを開きます。音声入力にはマイク許可とインターネット接続が必要です。",
+          "title" : "音声でタスクを追加"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "画面移動",
@@ -20072,6 +21970,34 @@
           ],
           "note" : "Todoist Macデスクトップアプリ専用です。",
           "title" : "ウィンドウを常に手前に表示"
+        },
+        {
+          "aliases" : [
+            "音声入力",
+            "Ramble"
+          ],
+          "category" : "デスクトップアプリ",
+          "id" : "todoist.global-ramble-new",
+          "keyLabel" : "⇧⌥R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Mac版の新規インストール時の既定値。Desktop設定で変更できます。音声入力にはマイク許可とインターネット接続が必要です。",
+          "title" : "どこからでもRambleを開く"
+        },
+        {
+          "aliases" : [
+            "音声入力",
+            "Ramble"
+          ],
+          "category" : "デスクトップアプリ",
+          "id" : "todoist.global-ramble-existing",
+          "keyLabel" : "⇧⌥Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "従来のMac版から引き継いだ既定値。変更済みの割り当てが優先されます。音声入力にはマイク許可とインターネット接続が必要です。",
+          "title" : "どこからでもRambleを開く（従来の設定）"
         }
       ],
       "matchBundleIDs" : [
@@ -22035,6 +23961,174 @@
           ],
           "note" : "ボード上で使います。単独キーのショートカットはアクセシビリティ設定で無効にできます。",
           "title" : "ボード上のコメントを表示・非表示"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-1",
+          "keyLabel" : "1",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の1番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-2",
+          "keyLabel" : "2",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の2番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-3",
+          "keyLabel" : "3",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の3番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-4",
+          "keyLabel" : "4",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の4番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-5",
+          "keyLabel" : "5",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の5番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-6",
+          "keyLabel" : "6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の6番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-7",
+          "keyLabel" : "7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の7番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-8",
+          "keyLabel" : "8",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の8番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "ツールバー",
+            "数字キー"
+          ],
+          "category" : "番号キー",
+          "id" : "miro.toolbar-number-9",
+          "keyLabel" : "9",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在の配置ではなく標準の順序に対応します。番号キーの再割り当てはできません。単独キーが有効な場合。",
+          "title" : "標準順の9番目のツールを開く"
+        },
+        {
+          "aliases" : [
+            "スクリーンリーダー",
+            "アクセシビリティ"
+          ],
+          "category" : "読み上げ",
+          "id" : "miro.board-summary",
+          "keyLabel" : "⌥S",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーなどの支援技術を使用中。ボード上のオブジェクトの数と種類を読み上げます。",
+          "title" : "ボードの概要を読み上げ"
+        },
+        {
+          "aliases" : [
+            "スクリーンリーダー",
+            "アクセシビリティ"
+          ],
+          "category" : "読み上げ",
+          "id" : "miro.object-information",
+          "keyLabel" : "⌥I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーなどの支援技術を使用中で、オブジェクトを選択している場合。",
+          "title" : "選択項目の追加情報を読み上げ"
+        },
+        {
+          "aliases" : [
+            "スクリーンリーダー",
+            "アクセシビリティ"
+          ],
+          "category" : "読み上げ",
+          "id" : "miro.selection-announcement",
+          "keyLabel" : "⌥R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーなどの支援技術を使用中で、オブジェクトを選択している場合。",
+          "title" : "選択項目の読み上げを繰り返す"
         },
         {
           "aliases" : [
@@ -50430,6 +52524,51 @@
         },
         {
           "aliases" : [
+            "しまう"
+          ],
+          "category" : "ウィンドウ",
+          "id" : "chrome.minimize",
+          "keyLabel" : "⌘M",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ウィンドウを最小化"
+        },
+        {
+          "aliases" : [
+            "隠す"
+          ],
+          "category" : "ウィンドウ",
+          "id" : "chrome.hide",
+          "keyLabel" : "⌘H",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "Chromeを非表示"
+        },
+        {
+          "aliases" : [
+            "終了"
+          ],
+          "category" : "ウィンドウ",
+          "id" : "chrome.quit",
+          "keyLabel" : "⌘Q",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "Chromeを終了"
+        },
+        {
+          "aliases" : [
             "address bar"
           ],
           "category" : "検索",
@@ -50490,6 +52629,22 @@
         },
         {
           "aliases" : [
+            "選択文字"
+          ],
+          "category" : "検索",
+          "id" : "chrome.find-selection",
+          "keyLabel" : "⌘E",
+          "legacyTitles" : [
+
+          ],
+          "note" : "検索バーが開いていて、テキストを選択している場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "選択したテキストをページ内検索"
+        },
+        {
+          "aliases" : [
             "history"
           ],
           "category" : "閲覧",
@@ -50532,6 +52687,21 @@
             "desktop"
           ],
           "title" : "設定を開く"
+        },
+        {
+          "aliases" : [
+            "問題を報告"
+          ],
+          "category" : "設定",
+          "id" : "chrome.feedback",
+          "keyLabel" : "⇧⌥⌘I",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "フィードバックを送る画面を開く"
         },
         {
           "aliases" : [
@@ -50622,6 +52792,101 @@
             "desktop"
           ],
           "title" : "キャッシュを無視して再読み込み"
+        },
+        {
+          "aliases" : [
+            "停止"
+          ],
+          "category" : "閲覧",
+          "id" : "chrome.stop-loading",
+          "keyLabel" : "Esc",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページを読み込み中。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ページの読み込みを停止"
+        },
+        {
+          "aliases" : [
+            "まとめて保存"
+          ],
+          "category" : "閲覧",
+          "id" : "chrome.bookmark-all-tabs",
+          "keyLabel" : "⇧⌘D",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "開いている全タブをフォルダにブックマーク"
+        },
+        {
+          "aliases" : [
+            "ホーム"
+          ],
+          "category" : "閲覧",
+          "id" : "chrome.home-page",
+          "keyLabel" : "⇧⌘H",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在のタブで開きます。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ホームページを開く"
+        },
+        {
+          "aliases" : [
+            "スクロール"
+          ],
+          "category" : "閲覧",
+          "id" : "chrome.page-down",
+          "keyLabel" : "Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文にフォーカスがあり、文字入力中ではない場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ページを1画面下へスクロール"
+        },
+        {
+          "aliases" : [
+            "スクロール"
+          ],
+          "category" : "閲覧",
+          "id" : "chrome.page-up",
+          "keyLabel" : "⇧Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文にフォーカスがあり、文字入力中ではない場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ページを1画面上へスクロール"
+        },
+        {
+          "aliases" : [
+            "キーボード閲覧"
+          ],
+          "category" : "閲覧",
+          "id" : "chrome.caret-browsing",
+          "keyLabel" : "F7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ内をカーソルで移動する機能です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "キャレットブラウジングを有効にする"
         },
         {
           "aliases" : [
@@ -69453,6 +71718,6 @@
       }
     }
   ],
-  "revision" : 20261186,
+  "revision" : 20261207,
   "schemaVersion" : 2
 }
