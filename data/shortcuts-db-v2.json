@@ -7278,6 +7278,58 @@
       "items" : [
         {
           "aliases" : [
+            "見出しレベル"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.next-heading-level",
+          "keyLabel" : "⌃⌘N → 1〜6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままN、見出しレベルの数字1〜6のいずれかを順に押します。",
+          "title" : "指定レベルの次の見出しに移動"
+        },
+        {
+          "aliases" : [
+            "見出しレベル"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.previous-heading-level",
+          "keyLabel" : "⌃⌘P → 1〜6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "⌃⌘を押したままP、見出しレベルの数字1〜6のいずれかを順に押します。",
+          "title" : "指定レベルの前の見出しに移動"
+        },
+        {
+          "aliases" : [
+            "Page Up",
+            "ページアップ"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.page-up",
+          "keyLabel" : "Fn+↑",
+          "legacyTitles" : [
+
+          ],
+          "title" : "上のページへ移動"
+        },
+        {
+          "aliases" : [
+            "Page Down",
+            "ページダウン"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.page-down",
+          "keyLabel" : "Fn+↓",
+          "legacyTitles" : [
+
+          ],
+          "title" : "下のページへ移動"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "編集・ファイル",
@@ -17166,6 +17218,34 @@
     {
       "displayName" : "Google Drive",
       "items" : [
+        {
+          "aliases" : [
+            "スロー再生",
+            "再生速度"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-speed-decrease",
+          "keyLabel" : "⇧,",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の再生速度を下げる"
+        },
+        {
+          "aliases" : [
+            "倍速",
+            "再生速度"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-speed-increase",
+          "keyLabel" : "⇧.",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の再生速度を上げる"
+        },
         {
           "aliases" : [
 
@@ -52374,6 +52454,37 @@
       "items" : [
         {
           "aliases" : [
+            "ユーザー切り替え",
+            "ゲスト"
+          ],
+          "category" : "設定",
+          "id" : "chrome.profile-menu",
+          "keyLabel" : "⇧⌘M",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "プロフィールメニューを開く"
+        },
+        {
+          "aliases" : [
+            "ローカルファイル"
+          ],
+          "category" : "ファイル",
+          "id" : "chrome.open-file",
+          "keyLabel" : "⌘O",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "Mac内のファイルを開く"
+        },
+        {
+          "aliases" : [
             "new window"
           ],
           "category" : "ウィンドウ",
@@ -55732,6 +55843,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "設定の「Ctrl+Tabで最近使用した順にタブを切り替える」がオフの場合。オンの場合は最近使用した順の切り替えになります。",
           "platforms" : [
             "desktop"
           ],
@@ -55747,6 +55859,7 @@
           "legacyTitles" : [
 
           ],
+          "note" : "設定の「Ctrl+Tabで最近使用した順にタブを切り替える」がオフの場合。オンの場合はすべてのタブを表示します。",
           "platforms" : [
             "desktop"
           ],
@@ -71718,6 +71831,6 @@
       }
     }
   ],
-  "revision" : 20261207,
+  "revision" : 20261211,
   "schemaVersion" : 2
 }
