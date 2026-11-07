@@ -7278,6 +7278,46 @@
       "items" : [
         {
           "aliases" : [
+            "離れた範囲",
+            "複数範囲"
+          ],
+          "category" : "選択・移動",
+          "id" : "docs.select-multiple-sections",
+          "keyLabel" : "⌃⇧⌘← \/ ⌃⇧⌘→",
+          "legacyTitles" : [
+
+          ],
+          "note" : "先に1箇所を選択してから使用し、左右矢印キーで追加したい別の箇所へ移動します。",
+          "title" : "複数箇所のテキストを選択"
+        },
+        {
+          "aliases" : [
+            "カーソル位置をアナウンス"
+          ],
+          "category" : "支援技術",
+          "id" : "docs.announce-cursor-location",
+          "keyLabel" : "⌃⌘A → L",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートを有効にして使用。⌃⌘を押したままA、Lを順に押します。",
+          "title" : "カーソル位置を読み上げる"
+        },
+        {
+          "aliases" : [
+            "文字数の読み上げ"
+          ],
+          "category" : "支援技術",
+          "id" : "docs.verbalize-word-count",
+          "keyLabel" : "⌃⌘A → W",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スクリーンリーダーのサポートを有効にして使用。⌃⌘を押したままA、Wを順に押します。",
+          "title" : "文字カウントを読み上げる"
+        },
+        {
+          "aliases" : [
             "見出しレベル"
           ],
           "category" : "選択・移動",
@@ -14328,6 +14368,48 @@
       "items" : [
         {
           "aliases" : [
+            "出席",
+            "RSVP"
+          ],
+          "category" : "招待への返信",
+          "id" : "google-calendar.rsvp-yes",
+          "keyLabel" : "Y",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定のコンテキストメニューを開いている場合。選択後、Enterで確定します。MacのVoiceOverではVO＋⇧Mでメニューを開き、QuickNavをオフにします。",
+          "title" : "招待への返信で「参加」を選ぶ"
+        },
+        {
+          "aliases" : [
+            "欠席",
+            "RSVP"
+          ],
+          "category" : "招待への返信",
+          "id" : "google-calendar.rsvp-no",
+          "keyLabel" : "N",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定のコンテキストメニューを開いている場合。選択後、Enterで確定します。MacのVoiceOverではVO＋⇧Mでメニューを開き、QuickNavをオフにします。",
+          "title" : "招待への返信で「不参加」を選ぶ"
+        },
+        {
+          "aliases" : [
+            "仮承諾",
+            "RSVP"
+          ],
+          "category" : "招待への返信",
+          "id" : "google-calendar.rsvp-maybe",
+          "keyLabel" : "M",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定のコンテキストメニューを開いている場合。選択後、Enterで確定します。MacのVoiceOverではVO＋⇧Mでメニューを開き、QuickNavをオフにします。",
+          "title" : "招待への返信で「未定」を選ぶ"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "移動",
@@ -17220,6 +17302,34 @@
       "items" : [
         {
           "aliases" : [
+            "巻き戻し",
+            "シーク"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-rewind-five",
+          "keyLabel" : "⇧←",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画を5秒戻す"
+        },
+        {
+          "aliases" : [
+            "早送り",
+            "シーク"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-forward-five",
+          "keyLabel" : "⇧→",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画を5秒進める"
+        },
+        {
+          "aliases" : [
             "スロー再生",
             "再生速度"
           ],
@@ -18493,6 +18603,20 @@
     {
       "displayName" : "Trello",
       "items" : [
+        {
+          "aliases" : [
+            "担当カード",
+            "自分に割り当てられたカード"
+          ],
+          "category" : "ボード操作",
+          "id" : "trello.filter-my-cards",
+          "keyLabel" : "Q",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ボードを開き、設定の「キーボードショートカットを無効化」がオフの場合。単独キーです。",
+          "title" : "自分のカードだけに絞り込む"
+        },
         {
           "aliases" : [
             "ボード切替"
@@ -52454,6 +52578,54 @@
       "items" : [
         {
           "aliases" : [
+            "URL補完"
+          ],
+          "category" : "検索",
+          "id" : "chrome.complete-com",
+          "keyLabel" : "⌃⏎",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アドレスバーにサイト名を入力している場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "www.と.comを補完して開く"
+        },
+        {
+          "aliases" : [
+            "URL補完"
+          ],
+          "category" : "検索",
+          "id" : "chrome.complete-com-new-window",
+          "keyLabel" : "⌃⇧⏎",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アドレスバーにサイト名を入力している場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "www.と.comを補完して新しいウィンドウで開く"
+        },
+        {
+          "aliases" : [
+            "バックグラウンドタブ"
+          ],
+          "category" : "検索",
+          "id" : "chrome.address-background-tab",
+          "keyLabel" : "⌘⏎",
+          "legacyTitles" : [
+
+          ],
+          "note" : "アドレスバーにURLを入力している場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "入力したURLを背景の新しいタブで開く"
+        },
+        {
+          "aliases" : [
             "ユーザー切り替え",
             "ゲスト"
           ],
@@ -55516,6 +55688,54 @@
     {
       "displayName" : "Firefox",
       "items" : [
+        {
+          "aliases" : [
+            "簡易検索"
+          ],
+          "category" : "検索",
+          "id" : "firefox.quick-find",
+          "keyLabel" : "\/",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文にフォーカスがあり、文字入力中ではない場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "クイック検索を開始"
+        },
+        {
+          "aliases" : [
+            "リンク検索"
+          ],
+          "category" : "検索",
+          "id" : "firefox.quick-find-links",
+          "keyLabel" : "'",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文にフォーカスがあり、文字入力中ではない場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "リンクの文字だけをクイック検索"
+        },
+        {
+          "aliases" : [
+            "検索終了"
+          ],
+          "category" : "検索",
+          "id" : "firefox.close-find",
+          "keyLabel" : "Esc",
+          "legacyTitles" : [
+
+          ],
+          "note" : "検索バーまたはクイック検索バーにフォーカスがある場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "検索バーを閉じる"
+        },
         {
           "aliases" : [
             "back"
@@ -71831,6 +72051,6 @@
       }
     }
   ],
-  "revision" : 20261211,
+  "revision" : 20261217,
   "schemaVersion" : 2
 }
