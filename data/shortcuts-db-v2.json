@@ -14368,6 +14368,34 @@
       "items" : [
         {
           "aliases" : [
+            "会議室",
+            "RSVP"
+          ],
+          "category" : "招待への返信",
+          "id" : "google-calendar.rsvp-meeting-room",
+          "keyLabel" : "R",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定のコンテキストメニューを開いている場合。選択後、Enterで確定します。MacのVoiceOverではVO＋⇧Mでメニューを開き、QuickNavをオフにします。",
+          "title" : "招待への返信で「会議室で参加」を選ぶ"
+        },
+        {
+          "aliases" : [
+            "オンライン",
+            "RSVP"
+          ],
+          "category" : "招待への返信",
+          "id" : "google-calendar.rsvp-virtually",
+          "keyLabel" : "V",
+          "legacyTitles" : [
+
+          ],
+          "note" : "予定のコンテキストメニューを開いている場合。選択後、Enterで確定します。MacのVoiceOverではVO＋⇧Mでメニューを開き、QuickNavをオフにします。",
+          "title" : "招待への返信で「オンラインで参加」を選ぶ"
+        },
+        {
+          "aliases" : [
             "出席",
             "RSVP"
           ],
@@ -17302,6 +17330,34 @@
       "items" : [
         {
           "aliases" : [
+            "音量",
+            "ボリューム"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-volume-up",
+          "keyLabel" : "↑",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Tabで動画プレーヤーの音量ボタンにフォーカスを移した状態。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の音量を上げる"
+        },
+        {
+          "aliases" : [
+            "音量",
+            "ボリューム"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-volume-down",
+          "keyLabel" : "↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Tabで動画プレーヤーの音量ボタンにフォーカスを移した状態。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の音量を下げる"
+        },
+        {
+          "aliases" : [
             "巻き戻し",
             "シーク"
           ],
@@ -19357,6 +19413,23 @@
     {
       "displayName" : "Zoom",
       "items" : [
+        {
+          "aliases" : [
+            "Web版の検索",
+            "グローバル検索"
+          ],
+          "category" : "アプリ操作",
+          "id" : "zoom.web-global-search",
+          "keyLabel" : "⌘K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Zoom Web Appにサインインして使用。デスクトップ版の全体検索とはキーが異なります。",
+          "platforms" : [
+            "web"
+          ],
+          "title" : "Web Appの全体検索を開く"
+        },
         {
           "aliases" : [
 
@@ -52578,6 +52651,38 @@
       "items" : [
         {
           "aliases" : [
+            "フォーカス移動"
+          ],
+          "category" : "表示",
+          "id" : "chrome.cycle-dialog-toolbar",
+          "keyLabel" : "⌥⌘↑ \/ ⌥⌘↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ダイアログが表示されていれば移動先に含みます。一部の操作にはmacOSのフルキーボードアクセスが必要です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ダイアログとツールバーへ順に移動"
+        },
+        {
+          "aliases" : [
+            "フォーカス移動"
+          ],
+          "category" : "表示",
+          "id" : "chrome.focus-inactive-dialog",
+          "keyLabel" : "⇧⌥⌘A",
+          "legacyTitles" : [
+
+          ],
+          "note" : "非アクティブなダイアログがある場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "非アクティブなダイアログへ移動"
+        },
+        {
+          "aliases" : [
             "URL補完"
           ],
           "category" : "検索",
@@ -55688,6 +55793,54 @@
     {
       "displayName" : "Firefox",
       "items" : [
+        {
+          "aliases" : [
+            "フォーカス移動"
+          ],
+          "category" : "ページ",
+          "id" : "firefox.next-frame",
+          "keyLabel" : "F6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "複数のフレームやポップアップがある場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "次のフレーム・ポップアップへ移動"
+        },
+        {
+          "aliases" : [
+            "フォーカス移動"
+          ],
+          "category" : "ページ",
+          "id" : "firefox.previous-frame",
+          "keyLabel" : "⇧F6",
+          "legacyTitles" : [
+
+          ],
+          "note" : "複数のフレームやポップアップがある場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "前のフレーム・ポップアップへ移動"
+        },
+        {
+          "aliases" : [
+            "プリント"
+          ],
+          "category" : "ページ",
+          "id" : "firefox.print",
+          "keyLabel" : "⌘P",
+          "legacyTitles" : [
+
+          ],
+          "note" : "表示中のページが対象です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ページを印刷"
+        },
         {
           "aliases" : [
             "簡易検索"
@@ -72051,6 +72204,6 @@
       }
     }
   ],
-  "revision" : 20261217,
+  "revision" : 20261222,
   "schemaVersion" : 2
 }
