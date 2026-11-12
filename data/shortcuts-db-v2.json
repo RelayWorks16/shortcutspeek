@@ -14368,6 +14368,34 @@
       "items" : [
         {
           "aliases" : [
+            "カレンダーを表示",
+            "カレンダーを非表示"
+          ],
+          "category" : "表示",
+          "id" : "google-calendar.toggle-calendar-visibility",
+          "keyLabel" : "Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "左側の「マイカレンダー」または「他のカレンダー」で、対象カレンダーにキーボードフォーカスがある場合。",
+          "title" : "選択したカレンダーの表示を切り替える"
+        },
+        {
+          "aliases" : [
+            "会議に参加",
+            "Join meeting"
+          ],
+          "category" : "予定",
+          "id" : "google-calendar.join-meeting-menu",
+          "keyLabel" : "J → Enter",
+          "legacyTitles" : [
+
+          ],
+          "note" : "参加可能なビデオ会議付き予定のコンテキストメニューを開いた状態で使用。MacのVoiceOverではVO＋Shift＋Mでメニューを開けます。",
+          "title" : "予定のメニューからビデオ会議に参加"
+        },
+        {
+          "aliases" : [
             "会議室",
             "RSVP"
           ],
@@ -17330,6 +17358,34 @@
       "items" : [
         {
           "aliases" : [
+            "巻き戻し",
+            "シーク"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-seek-back-minute",
+          "keyLabel" : "⇧Page Down",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Tabで動画のシークスライダーにフォーカスを移した状態。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画を1分戻す"
+        },
+        {
+          "aliases" : [
+            "早送り",
+            "シーク"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-seek-forward-minute",
+          "keyLabel" : "⇧Page Up",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Tabで動画のシークスライダーにフォーカスを移した状態。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画を1分進める"
+        },
+        {
+          "aliases" : [
             "音量",
             "ボリューム"
           ],
@@ -17941,7 +17997,7 @@
           "legacyTitles" : [
 
           ],
-          "note" : "コピーまたは切り取り後、貼り付け先のフォルダを表示している場合。",
+          "note" : "Chromeで使用。コピーまたは切り取り後、貼り付け先のフォルダを表示している場合。",
           "title" : "クリップボードのアイテムをショートカットとして貼り付け"
         },
         {
@@ -52651,6 +52707,38 @@
       "items" : [
         {
           "aliases" : [
+            "用紙設定"
+          ],
+          "category" : "ファイル",
+          "id" : "chrome.page-setup",
+          "keyLabel" : "⌥⌘P",
+          "legacyTitles" : [
+
+          ],
+          "note" : "印刷用のページ設定ダイアログを開きます。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ページ設定を開く"
+        },
+        {
+          "aliases" : [
+            "メール作成"
+          ],
+          "category" : "ファイル",
+          "id" : "chrome.email-page-link",
+          "keyLabel" : "⇧⌘I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "現在のページへのリンクを含む新規メールを作成します。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "ページのリンクをメールで共有"
+        },
+        {
+          "aliases" : [
             "フォーカス移動"
           ],
           "category" : "表示",
@@ -55793,6 +55881,38 @@
     {
       "displayName" : "Firefox",
       "items" : [
+        {
+          "aliases" : [
+            "Page Down"
+          ],
+          "category" : "ページ",
+          "id" : "firefox.page-down-screen",
+          "keyLabel" : "Fn+↓ または Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文にフォーカスがあり、文字入力中ではない場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "1画面下へスクロール"
+        },
+        {
+          "aliases" : [
+            "Page Up"
+          ],
+          "category" : "ページ",
+          "id" : "firefox.page-up-screen",
+          "keyLabel" : "Fn+↑ または ⇧Space",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文にフォーカスがあり、文字入力中ではない場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "1画面上へスクロール"
+        },
         {
           "aliases" : [
             "フォーカス移動"
@@ -72204,6 +72324,6 @@
       }
     }
   ],
-  "revision" : 20261222,
+  "revision" : 20261226,
   "schemaVersion" : 2
 }
