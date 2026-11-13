@@ -15467,7 +15467,7 @@
           ],
           "category" : "会話・画面移動",
           "id" : "slack.next-section",
-          "keyLabel" : "F6",
+          "keyLabel" : "F6 または ⌃⌘→",
           "legacyTitles" : [
 
           ],
@@ -15480,7 +15480,7 @@
           ],
           "category" : "会話・画面移動",
           "id" : "slack.previous-section",
-          "keyLabel" : "⇧F6",
+          "keyLabel" : "⇧F6 または ⌃⌘←",
           "legacyTitles" : [
 
           ],
@@ -17356,6 +17356,34 @@
     {
       "displayName" : "Google Drive",
       "items" : [
+        {
+          "aliases" : [
+            "シーク",
+            "先頭"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-seek-start",
+          "keyLabel" : "⇧Home",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Tabで動画のシークスライダーにフォーカスを移した状態。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の先頭へ移動"
+        },
+        {
+          "aliases" : [
+            "シーク",
+            "末尾"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-seek-end",
+          "keyLabel" : "⇧End",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Tabで動画のシークスライダーにフォーカスを移した状態。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の末尾へ移動"
+        },
         {
           "aliases" : [
             "巻き戻し",
@@ -52707,6 +52735,39 @@
       "items" : [
         {
           "aliases" : [
+            "Split view",
+            "画面分割"
+          ],
+          "category" : "タブ",
+          "id" : "chrome.open-split-view",
+          "keyLabel" : "⌥⌘N",
+          "legacyTitles" : [
+
+          ],
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "現在のタブで分割表示を開く"
+        },
+        {
+          "aliases" : [
+            "グループを開閉",
+            "タブグループ"
+          ],
+          "category" : "タブ",
+          "id" : "chrome.toggle-tab-group",
+          "keyLabel" : "Space または Enter",
+          "legacyTitles" : [
+
+          ],
+          "note" : "タブグループの見出しにキーボードフォーカスがある場合。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "タブグループを折りたたむ・展開する"
+        },
+        {
+          "aliases" : [
             "用紙設定"
           ],
           "category" : "ファイル",
@@ -55881,6 +55942,41 @@
     {
       "displayName" : "Firefox",
       "items" : [
+        {
+          "aliases" : [
+            "リンク先を保存",
+            "Save Focused Link"
+          ],
+          "category" : "ページ",
+          "id" : "firefox.save-focused-link",
+          "keyLabel" : "⌥⏎",
+          "legacyTitles" : [
+
+          ],
+          "note" : "リンクにフォーカスがあり、about:configのbrowser.altClickSaveをtrueに設定した場合。既定では無効です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "フォーカス中のリンク先を保存"
+        },
+        {
+          "aliases" : [
+            "検索バー",
+            "検索にフォーカス",
+            "Web検索"
+          ],
+          "category" : "検索",
+          "id" : "firefox.search-focus",
+          "keyLabel" : "⌘K または ⌥⌘F",
+          "legacyTitles" : [
+
+          ],
+          "note" : "検索バーを表示している場合は検索バー、非表示の場合はアドレスバーへ移動します。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "Web検索の入力欄へ移動"
+        },
         {
           "aliases" : [
             "Page Down"
@@ -72324,6 +72420,6 @@
       }
     }
   ],
-  "revision" : 20261226,
+  "revision" : 20261230,
   "schemaVersion" : 2
 }
