@@ -11787,7 +11787,9 @@
         },
         {
           "aliases" : [
-            "スターを切り替え"
+            "スターを切り替え",
+            "複数スター",
+            "superstars"
           ],
           "category" : "メール操作",
           "id" : "gmail.toggle-star",
@@ -11795,7 +11797,7 @@
           "legacyTitles" : [
 
           ],
-          "note" : "設定ONが必要。",
+          "note" : "複数のスターを設定で使用中にしている場合は、その種類を順に切り替えます。 設定ONが必要。",
           "title" : "スターを付ける・外す"
         },
         {
@@ -64787,6 +64789,22 @@
         },
         {
           "aliases" : [
+            "select message for reading"
+          ],
+          "category" : "読み上げ",
+          "id" : "line.select-message-for-reading",
+          "keyLabel" : "↑ \/ ↓",
+          "legacyTitles" : [
+
+          ],
+          "note" : "MacでスクリーンリーダーのVoiceOverを有効にし、トークルーム内で使用します。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "読み上げるメッセージを選択"
+        },
+        {
+          "aliases" : [
             "close window"
           ],
           "category" : "基本",
@@ -65557,7 +65575,7 @@
 
       ],
       "notice" : {
-        "details" : "LINE内の設定にあるショートカット一覧をもとにしています。基本画面・トーク・通話・キャプチャ・ビューアーで操作が異なります。送信と改行は設定に連動します。「Enterで送信」ではEnter\/Shift+Enter、「Command+Enterで送信」ではCommand+Enter\/Enterを使います。",
+        "details" : "LINE内の設定にあるショートカット一覧と公式ヘルプをもとにしています。基本画面・トーク・通話・キャプチャ・ビューアーで操作が異なります。送信と改行は設定に連動します。「Enterで送信」ではEnter\/Shift+Enter、「Command+Enterで送信」ではCommand+Enter\/Enterを使います。",
         "summary" : "LINE Mac版のショートカット"
       }
     },
@@ -72420,6 +72438,6 @@
       }
     }
   ],
-  "revision" : 20261230,
+  "revision" : 20261232,
   "schemaVersion" : 2
 }
