@@ -12525,6 +12525,48 @@
       "items" : [
         {
           "aliases" : [
+            "スラッシュ",
+            "slash"
+          ],
+          "category" : "ブロック編集",
+          "id" : "notion.open-slash-menu",
+          "keyLabel" : "\/",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ページ本文を入力中。続けて操作名を入力すると候補を絞れます。",
+          "title" : "ブロック挿入メニューを開く"
+        },
+        {
+          "aliases" : [
+            "スラッシュ",
+            "slash"
+          ],
+          "category" : "ブロック編集",
+          "id" : "notion.dismiss-slash-menu",
+          "keyLabel" : "Esc",
+          "legacyTitles" : [
+
+          ],
+          "note" : "スラッシュメニューが開いている場合。本文に\/を入力したいときにも使えます。",
+          "title" : "ブロック挿入メニューを閉じる"
+        },
+        {
+          "aliases" : [
+            "mention",
+            "メンション"
+          ],
+          "category" : "文字・コメント",
+          "id" : "notion.dismiss-mention-menu",
+          "keyLabel" : "Esc",
+          "legacyTitles" : [
+
+          ],
+          "note" : "@メニューが開いている場合。本文に@を入力したいときにも使えます。",
+          "title" : "メンションメニューを閉じる"
+        },
+        {
+          "aliases" : [
             "改行"
           ],
           "category" : "文字・コメント",
@@ -17358,6 +17400,20 @@
     {
       "displayName" : "Google Drive",
       "items" : [
+        {
+          "aliases" : [
+            "シーク",
+            "再生位置"
+          ],
+          "category" : "動画",
+          "id" : "google-drive.video-seek-percentage",
+          "keyLabel" : "1〜9",
+          "legacyTitles" : [
+
+          ],
+          "note" : "動画プレーヤーにフォーカスがある場合。数字1〜9が10%刻みの位置に対応します。VoiceOver使用時はQuickNavをオフにします。",
+          "title" : "動画の10%〜90%の位置へ移動"
+        },
         {
           "aliases" : [
             "シーク",
@@ -52737,6 +52793,40 @@
       "items" : [
         {
           "aliases" : [
+            "タブ順序",
+            "タブ移動"
+          ],
+          "category" : "タブ",
+          "id" : "chrome.reorder-tab",
+          "keyLabel" : "⌃⇧Page Up \/ ⌃⇧Page Down",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Mac版のタブ位置を移動する操作です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "タブを左・右へ並べ替える"
+        },
+        {
+          "aliases" : [
+            "タブグループ",
+            "並べ替え"
+          ],
+          "category" : "タブ",
+          "id" : "chrome.move-focused-tab-group",
+          "keyLabel" : "⌃← \/ ⌃→",
+          "legacyTitles" : [
+
+          ],
+          "note" : "タブまたはタブグループにキーボードフォーカスを移した状態。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "フォーカス中のタブ・グループを移動"
+        },
+        {
+          "aliases" : [
             "Split view",
             "画面分割"
           ],
@@ -72438,6 +72528,6 @@
       }
     }
   ],
-  "revision" : 20261232,
+  "revision" : 20261235,
   "schemaVersion" : 2
 }
