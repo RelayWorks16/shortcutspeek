@@ -13212,6 +13212,20 @@
       "items" : [
         {
           "aliases" : [
+            "Keyboard Shortcuts",
+            "キー一覧"
+          ],
+          "category" : "検索・移動",
+          "id" : "linear.open-shortcut-overlay",
+          "keyLabel" : "⌘\/",
+          "legacyTitles" : [
+
+          ],
+          "note" : "ヘルプメニューを経由せず一覧を開きます。",
+          "title" : "ショートカット一覧を直接開く"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "検索・移動",
@@ -56036,6 +56050,40 @@
       "items" : [
         {
           "aliases" : [
+            "検索プロバイダー",
+            "default search engine"
+          ],
+          "category" : "検索",
+          "id" : "firefox.change-default-search-engine",
+          "keyLabel" : "⌘↓ \/ ⌘↑",
+          "legacyTitles" : [
+
+          ],
+          "note" : "検索バーまたは新しいタブページの検索欄にフォーカスがある場合。アドレスバーとは異なります。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "既定の検索エンジンを切り替える"
+        },
+        {
+          "aliases" : [
+            "検索プロバイダー",
+            "検索バー"
+          ],
+          "category" : "検索",
+          "id" : "firefox.search-engine-menu",
+          "keyLabel" : "⌥↓ \/ ⌥↑",
+          "legacyTitles" : [
+
+          ],
+          "note" : "表示している検索バーにフォーカスがある場合。検索エンジンの切り替え・追加・管理メニューを表示します。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "検索エンジンのメニューを開く"
+        },
+        {
+          "aliases" : [
             "リンク先を保存",
             "Save Focused Link"
           ],
@@ -72528,6 +72576,6 @@
       }
     }
   ],
-  "revision" : 20261235,
+  "revision" : 20261237,
   "schemaVersion" : 2
 }
