@@ -25952,6 +25952,227 @@
       "items" : [
         {
           "aliases" : [
+            "bold"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-bold",
+          "keyLabel" : "⌘B",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "太字"
+        },
+        {
+          "aliases" : [
+            "italic"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-italic",
+          "keyLabel" : "⌘I",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "斜体"
+        },
+        {
+          "aliases" : [
+            "underline"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-underline",
+          "keyLabel" : "⌘U",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "下線"
+        },
+        {
+          "aliases" : [
+            "indent"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-indent-list",
+          "keyLabel" : "Tab",
+          "legacyTitles" : [
+
+          ],
+          "note" : "テキストエディターのリスト項目にカーソルがある場合。",
+          "title" : "リストのインデントを増やす"
+        },
+        {
+          "aliases" : [
+            "outdent"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-outdent-list",
+          "keyLabel" : "⇧Tab",
+          "legacyTitles" : [
+
+          ],
+          "note" : "テキストエディターのリスト項目にカーソルがある場合。",
+          "title" : "リストのインデントを減らす"
+        },
+        {
+          "aliases" : [
+            "strikethrough"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-strike",
+          "keyLabel" : "⇧⌘S",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "取り消し線"
+        },
+        {
+          "aliases" : [
+            "numbered list"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-numbered-list",
+          "keyLabel" : "⇧⌘7",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "番号付きリスト"
+        },
+        {
+          "aliases" : [
+            "bullet list"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-bullet-list",
+          "keyLabel" : "⇧⌘8",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "箇条書きリスト"
+        },
+        {
+          "aliases" : [
+            "quote"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-quote",
+          "keyLabel" : "⇧⌘9",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "引用"
+        },
+        {
+          "aliases" : [
+            "divider"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-divider",
+          "keyLabel" : "⇧⌘-",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "区切り線を挿入"
+        },
+        {
+          "aliases" : [
+            "link"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-link",
+          "keyLabel" : "⇧⌘K",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "リンクを追加"
+        },
+        {
+          "aliases" : [
+            "code"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-inline-code",
+          "keyLabel" : "⇧⌘M",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "インラインコード"
+        },
+        {
+          "aliases" : [
+            "clear formatting"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-clear-format",
+          "keyLabel" : "⌘\\",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "書式をクリア"
+        },
+        {
+          "aliases" : [
+            "view changes"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-view-changes",
+          "keyLabel" : "⌥⌘Z",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "変更内容を表示"
+        },
+        {
+          "aliases" : [
+            "undo"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-undo",
+          "keyLabel" : "⌘Z",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "入力を元に戻す"
+        },
+        {
+          "aliases" : [
+            "redo"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-redo",
+          "keyLabel" : "⇧⌘Z",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "入力をやり直す"
+        },
+        {
+          "aliases" : [
+            "plain text"
+          ],
+          "category" : "本文編集",
+          "id" : "jira.editor-paste-plain",
+          "keyLabel" : "⇧⌘V",
+          "legacyTitles" : [
+
+          ],
+          "note" : "説明・コメントなどのテキストエディターにカーソルまたはフォーカスがある場合。",
+          "title" : "書式なしで貼り付け"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "全般",
@@ -72576,6 +72797,6 @@
       }
     }
   ],
-  "revision" : 20261237,
+  "revision" : 20261238,
   "schemaVersion" : 2
 }
