@@ -31321,6 +31321,45 @@
         },
         {
           "aliases" : [
+            "New Project",
+            "新しいプロジェクト"
+          ],
+          "category" : "プロジェクト",
+          "id" : "framer.new-project",
+          "keyLabel" : "⌥⌘N",
+          "legacyTitles" : [
+
+          ],
+          "title" : "新規プロジェクトを作成"
+        },
+        {
+          "aliases" : [
+            "Open Site",
+            "サイトを表示"
+          ],
+          "category" : "プロジェクト",
+          "id" : "framer.open-site",
+          "keyLabel" : "⇧⌘O",
+          "legacyTitles" : [
+
+          ],
+          "title" : "公開サイトを開く"
+        },
+        {
+          "aliases" : [
+            "Version History",
+            "変更履歴"
+          ],
+          "category" : "プロジェクト",
+          "id" : "framer.version-history",
+          "keyLabel" : "⇧⌘H",
+          "legacyTitles" : [
+
+          ],
+          "title" : "バージョン履歴を開く"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "編集",
@@ -72797,6 +72836,6 @@
       }
     }
   ],
-  "revision" : 20261238,
+  "revision" : 20261239,
   "schemaVersion" : 2
 }
