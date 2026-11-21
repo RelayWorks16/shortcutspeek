@@ -31925,6 +31925,33 @@
         },
         {
           "aliases" : [
+            "code export",
+            "エクスポート"
+          ],
+          "category" : "一般",
+          "id" : "webflow.export-dialog",
+          "keyLabel" : "⇧E",
+          "legacyTitles" : [
+
+          ],
+          "note" : "単独の文字・矢印キーは文字入力欄の外にフォーカスがある場合。",
+          "title" : "コード書き出しダイアログを開く"
+        },
+        {
+          "aliases" : [
+            "Edit element"
+          ],
+          "category" : "一般",
+          "id" : "webflow.edit-element",
+          "keyLabel" : "⏎",
+          "legacyTitles" : [
+
+          ],
+          "note" : "編集する要素を選択した状態で使用。",
+          "title" : "要素を編集"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "一般",
@@ -32440,7 +32467,7 @@
           "legacyTitles" : [
 
           ],
-          "note" : "貼り付け先のフィルムストリップにフォーカスがある場合。",
+          "note" : "貼り付け先のフィルムストリップにフォーカスがある場合。Gamma 5のスライドは別ワークスペースへ貼り付けできません。",
           "title" : "スライドを貼り付け"
         },
         {
@@ -32453,7 +32480,7 @@
           "legacyTitles" : [
 
           ],
-          "note" : "スライドを別のGammaへコピーする場合。",
+          "note" : "コピー先は最近閲覧した5件のGammaから選びます。",
           "title" : "最近使ったデッキへのコピーを開く"
         },
         {
@@ -33037,6 +33064,58 @@
           ],
           "note" : "Bufferで文字入力欄の外にフォーカスがある場合。連続キーは順番に押します。",
           "title" : "ショートカット一覧を表示"
+        },
+        {
+          "aliases" : [
+            "Filter"
+          ],
+          "category" : "Publish表示",
+          "id" : "buffer.publish-filter",
+          "keyLabel" : "⇧F",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Beta featuresが有効なPublish画面で、文字入力欄の外で使用。Shiftと文字キーは同時に押します。",
+          "title" : "フィルターメニューを開く"
+        },
+        {
+          "aliases" : [
+            "View options"
+          ],
+          "category" : "Publish表示",
+          "id" : "buffer.publish-options",
+          "keyLabel" : "⇧D",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Beta featuresが有効なPublish画面で、文字入力欄の外で使用。Shiftと文字キーは同時に押します。",
+          "title" : "表示オプションを開く"
+        },
+        {
+          "aliases" : [
+            "Calendar List Board"
+          ],
+          "category" : "Publish表示",
+          "id" : "buffer.publish-switch-view",
+          "keyLabel" : "⇧V",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Beta featuresが有効なPublish画面で、文字入力欄の外で使用。Shiftと文字キーは同時に押します。",
+          "title" : "カレンダー・リスト・ボード表示を切り替え"
+        },
+        {
+          "aliases" : [
+            "Group by"
+          ],
+          "category" : "Publish表示",
+          "id" : "buffer.publish-group-by",
+          "keyLabel" : "⇧G",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Beta featuresが有効なPublishのBoard表示で、文字入力欄の外で使用。ShiftとGは同時に押します。",
+          "title" : "グループ化メニューを開く"
         },
         {
           "aliases" : [
@@ -72836,6 +72915,6 @@
       }
     }
   ],
-  "revision" : 20261239,
+  "revision" : 20261242,
   "schemaVersion" : 2
 }
