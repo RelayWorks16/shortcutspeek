@@ -12607,6 +12607,62 @@
         },
         {
           "aliases" : [
+            "Markdown",
+            "太字構文"
+          ],
+          "category" : "Markdown入力",
+          "id" : "notion.markdown-bold",
+          "keyLabel" : "**文字** を入力",
+          "legacyTitles" : [
+
+          ],
+          "note" : "本文入力中、文字の両側に半角記号を入力します。同時押しではありません。公式は英語\/QWERTY配列を前提とします。",
+          "title" : "太字を入力"
+        },
+        {
+          "aliases" : [
+            "Markdown",
+            "斜体構文"
+          ],
+          "category" : "Markdown入力",
+          "id" : "notion.markdown-italic",
+          "keyLabel" : "*文字* を入力",
+          "legacyTitles" : [
+
+          ],
+          "note" : "本文入力中、文字の両側に半角記号を入力します。同時押しではありません。公式は英語\/QWERTY配列を前提とします。",
+          "title" : "斜体を入力"
+        },
+        {
+          "aliases" : [
+            "Markdown",
+            "コード構文"
+          ],
+          "category" : "Markdown入力",
+          "id" : "notion.markdown-code",
+          "keyLabel" : "`文字` を入力",
+          "legacyTitles" : [
+
+          ],
+          "note" : "本文入力中、文字の両側に半角記号を入力します。同時押しではありません。公式は英語\/QWERTY配列を前提とします。",
+          "title" : "インラインコードを入力"
+        },
+        {
+          "aliases" : [
+            "Markdown",
+            "取り消し線構文"
+          ],
+          "category" : "Markdown入力",
+          "id" : "notion.markdown-strike",
+          "keyLabel" : "~文字~ を入力",
+          "legacyTitles" : [
+
+          ],
+          "note" : "本文入力中、文字の両側に半角記号を入力します。同時押しではありません。公式は英語\/QWERTY配列を前提とします。",
+          "title" : "取り消し線を入力"
+        },
+        {
+          "aliases" : [
             "検索",
             "最近見たページ"
           ],
@@ -72915,6 +72971,6 @@
       }
     }
   ],
-  "revision" : 20261242,
+  "revision" : 20261243,
   "schemaVersion" : 2
 }
