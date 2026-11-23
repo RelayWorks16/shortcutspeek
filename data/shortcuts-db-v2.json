@@ -40059,6 +40059,43 @@
         },
         {
           "aliases" : [
+            "Quick entry",
+            "Quick access",
+            "Optionを2回",
+            "クイックアクセス"
+          ],
+          "category" : "クイック入力",
+          "id" : "claude.quick-entry",
+          "keyLabel" : "⌥ → ⌥",
+          "legacyTitles" : [
+
+          ],
+          "note" : "macOS 12以降。Claude Desktopを起動し、設定でQuick access shortcutを有効にした場合の既定値。Optionを素早く2回押します。アクセシビリティ権限が必要です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "クイック入力を開く"
+        },
+        {
+          "aliases" : [
+            "Voice dictation",
+            "音声書き起こし",
+            "ディクテーション"
+          ],
+          "category" : "クイック入力",
+          "id" : "claude.quick-entry-dictation",
+          "keyLabel" : "Caps Lock",
+          "legacyTitles" : [
+
+          ],
+          "note" : "macOS 14以降。Claude Desktopを起動し、設定でVoice shortcutを有効にした場合。初期状態は無効です。音声認識とアクセシビリティ権限が必要です。",
+          "platforms" : [
+            "desktop"
+          ],
+          "title" : "音声入力を開始・停止"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "チャット",
@@ -72971,6 +73008,6 @@
       }
     }
   ],
-  "revision" : 20261243,
+  "revision" : 20261244,
   "schemaVersion" : 2
 }
