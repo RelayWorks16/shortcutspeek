@@ -44338,6 +44338,21 @@
         },
         {
           "aliases" : [
+            "Return CTI To Start Position On Stop",
+            "現在時間インジケーター",
+            "再生停止位置"
+          ],
+          "category" : "再生",
+          "id" : "adobe-audition.return-cti-on-stop",
+          "keyLabel" : "⇧X",
+          "legacyTitles" : [
+
+          ],
+          "note" : "Return CTI To Start Position On Stop設定のオン\/オフを切り替えます。現在位置を直ちに移動する操作ではありません。",
+          "title" : "停止時に再生開始位置へ戻す設定を切り替え"
+        },
+        {
+          "aliases" : [
 
           ],
           "category" : "ズーム",
@@ -44413,6 +44428,19 @@
           ],
           "note" : "現在時間インジケーターを前のマーカーへ移動します。",
           "title" : "前のマーカーへ移動"
+        },
+        {
+          "aliases" : [
+            "Next marker",
+            "次のマーカー位置"
+          ],
+          "category" : "マーカー",
+          "id" : "adobe-audition.next-marker",
+          "keyLabel" : "⌥⌘→",
+          "legacyTitles" : [
+
+          ],
+          "title" : "次のマーカーへ移動"
         },
         {
           "aliases" : [
@@ -73008,6 +73036,6 @@
       }
     }
   ],
-  "revision" : 20261244,
+  "revision" : 20261245,
   "schemaVersion" : 2
 }
